@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright 2022 VMware, Inc.
+  ~ SPDX-License-Identifier: MIT
+  -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>date-time-pattern-detection-parent</artifactId>
+        <groupId>com.vmware.g11n</groupId>
+        <version>0.0.3</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.vmware.g11n</groupId>
+    <artifactId>date-time-pattern-detection-rest-api</artifactId>
+    <name>date-time-pattern-detection-rest-api</name>
+    <version>0.0.4</version>
+    <packaging>jar</packaging>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <maven.deploy.skip>true</maven.deploy.skip>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.vmware.g11n</groupId>
+            <artifactId>date-time-pattern-detection-model</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.vmware.g11n</groupId>
+            <artifactId>date-time-pattern-detection-library</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-ui</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>com.vmware.g11n.pattern.detection.api.DateTimePatternDetectionServiceApplication</mainClass>
+                    <addResources>false</addResources>
+                    <executable>true</executable>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

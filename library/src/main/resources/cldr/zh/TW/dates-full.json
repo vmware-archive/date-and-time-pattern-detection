@@ -1,0 +1,386 @@
+{
+  "months": {
+    "format": {
+      "narrow": {
+        "11": "11",
+        "1": "1",
+        "12": "12",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "10"
+      },
+      "abbreviated": {
+        "11": "11月",
+        "1": "1月",
+        "12": "12月",
+        "2": "2月",
+        "3": "3月",
+        "4": "4月",
+        "5": "5月",
+        "6": "6月",
+        "7": "7月",
+        "8": "8月",
+        "9": "9月",
+        "10": "10月"
+      },
+      "wide": {
+        "11": "11月",
+        "1": "1月",
+        "12": "12月",
+        "2": "2月",
+        "3": "3月",
+        "4": "4月",
+        "5": "5月",
+        "6": "6月",
+        "7": "7月",
+        "8": "8月",
+        "9": "9月",
+        "10": "10月"
+      }
+    },
+    "stand-alone": {
+      "narrow": {
+        "11": "11",
+        "1": "1",
+        "12": "12",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "10"
+      },
+      "abbreviated": {
+        "11": "11月",
+        "1": "1月",
+        "12": "12月",
+        "2": "2月",
+        "3": "3月",
+        "4": "4月",
+        "5": "5月",
+        "6": "6月",
+        "7": "7月",
+        "8": "8月",
+        "9": "9月",
+        "10": "10月"
+      },
+      "wide": {
+        "11": "11月",
+        "1": "1月",
+        "12": "12月",
+        "2": "2月",
+        "3": "3月",
+        "4": "4月",
+        "5": "5月",
+        "6": "6月",
+        "7": "7月",
+        "8": "8月",
+        "9": "9月",
+        "10": "10月"
+      }
+    }
+  },
+  "days": {
+    "format": {
+      "narrow": {
+        "thu": "四",
+        "tue": "二",
+        "wed": "三",
+        "sat": "六",
+        "fri": "五",
+        "sun": "日",
+        "mon": "一"
+      },
+      "abbreviated": {
+        "thu": "週四",
+        "tue": "週二",
+        "wed": "週三",
+        "sat": "週六",
+        "fri": "週五",
+        "sun": "週日",
+        "mon": "週一"
+      },
+      "wide": {
+        "thu": "星期四",
+        "tue": "星期二",
+        "wed": "星期三",
+        "sat": "星期六",
+        "fri": "星期五",
+        "sun": "星期日",
+        "mon": "星期一"
+      },
+      "short": {
+        "thu": "四",
+        "tue": "二",
+        "wed": "三",
+        "sat": "六",
+        "fri": "五",
+        "sun": "日",
+        "mon": "一"
+      }
+    },
+    "stand-alone": {
+      "narrow": {
+        "thu": "四",
+        "tue": "二",
+        "wed": "三",
+        "sat": "六",
+        "fri": "五",
+        "sun": "日",
+        "mon": "一"
+      },
+      "abbreviated": {
+        "thu": "週四",
+        "tue": "週二",
+        "wed": "週三",
+        "sat": "週六",
+        "fri": "週五",
+        "sun": "週日",
+        "mon": "週一"
+      },
+      "wide": {
+        "thu": "星期四",
+        "tue": "星期二",
+        "wed": "星期三",
+        "sat": "星期六",
+        "fri": "星期五",
+        "sun": "星期日",
+        "mon": "星期一"
+      },
+      "short": {
+        "thu": "四",
+        "tue": "二",
+        "wed": "三",
+        "sat": "六",
+        "fri": "五",
+        "sun": "日",
+        "mon": "一"
+      }
+    }
+  },
+  "quarters": {
+    "format": {
+      "abbreviated": {
+        "1": "第1季",
+        "2": "第2季",
+        "3": "第3季",
+        "4": "第4季"
+      },
+      "wide": {
+        "1": "第1季",
+        "2": "第2季",
+        "3": "第3季",
+        "4": "第4季"
+      }
+    },
+    "stand-alone": {
+      "abbreviated": {
+        "1": "第1季",
+        "2": "第2季",
+        "3": "第3季",
+        "4": "第4季"
+      },
+      "wide": {
+        "1": "第1季",
+        "2": "第2季",
+        "3": "第3季",
+        "4": "第4季"
+      }
+    }
+  },
+  "dayPeriods": {
+    "format": {
+      "narrow": {
+        "midnight": "午夜",
+        "night1": "凌晨",
+        "morning2": "上午",
+        "afternoon1": "中午",
+        "morning1": "清晨",
+        "afternoon2": "下午",
+        "evening1": "晚上",
+        "am": "上午",
+        "pm": "下午"
+      },
+      "abbreviated": {
+        "midnight": "午夜",
+        "night1": "凌晨",
+        "morning2": "上午",
+        "afternoon1": "中午",
+        "morning1": "清晨",
+        "afternoon2": "下午",
+        "evening1": "晚上",
+        "am": "上午",
+        "pm": "下午"
+      },
+      "wide": {
+        "midnight": "午夜",
+        "night1": "凌晨",
+        "morning2": "上午",
+        "afternoon1": "中午",
+        "morning1": "清晨",
+        "afternoon2": "下午",
+        "evening1": "晚上",
+        "am": "上午",
+        "pm": "下午"
+      }
+    },
+    "stand-alone": {
+      "narrow": {
+        "midnight": "午夜",
+        "night1": "凌晨",
+        "morning2": "上午",
+        "afternoon1": "中午",
+        "morning1": "清晨",
+        "afternoon2": "下午",
+        "evening1": "晚上",
+        "am": "上午",
+        "pm": "下午"
+      },
+      "abbreviated": {
+        "midnight": "午夜",
+        "night1": "凌晨",
+        "morning2": "上午",
+        "afternoon1": "中午",
+        "morning1": "清晨",
+        "afternoon2": "下午",
+        "evening1": "晚上",
+        "am": "上午",
+        "pm": "下午"
+      },
+      "wide": {
+        "midnight": "午夜",
+        "night1": "凌晨",
+        "morning2": "上午",
+        "afternoon1": "中午",
+        "morning1": "清晨",
+        "afternoon2": "下午",
+        "evening1": "晚上",
+        "am": "上午",
+        "pm": "下午"
+      }
+    }
+  },
+  "eras": {
+    "eraNames": {
+      "0": "西元前",
+      "1": "西元",
+      "1-alt-variant": "公元",
+      "0-alt-variant": "公元前"
+    },
+    "eraAbbr": {
+      "0": "西元前",
+      "1": "西元",
+      "1-alt-variant": "公元",
+      "0-alt-variant": "公元前"
+    },
+    "eraNarrow": {
+      "0": "西元前",
+      "1": "西元",
+      "1-alt-variant": "公元",
+      "0-alt-variant": "公元前"
+    }
+  },
+  "dateFormats": {
+    "medium": "y年M月d日",
+    "full": "y年M月d日 EEEE",
+    "short": "y/M/d",
+    "long": "y年M月d日"
+  },
+  "timeFormats": {
+    "medium": "ah:mm:ss",
+    "full": "ah:mm:ss [zzzz]",
+    "short": "ah:mm",
+    "long": "ah:mm:ss [z]"
+  },
+  "dateTimeFormats": {
+    "medium": "{1} {0}",
+    "full": "{1} {0}",
+    "appendItems": {
+      "Day": "{0} ({2}: {1})",
+      "Day-Of-Week": "{0} {1}",
+      "Era": "{1} {0}",
+      "Hour": "{0} ({2}: {1})",
+      "Minute": "{0} ({2}: {1})",
+      "Month": "{0} ({2}: {1})",
+      "Quarter": "{0} ({2}: {1})",
+      "Second": "{0} ({2}: {1})",
+      "Timezone": "{0} {1}",
+      "Week": "{0} ({2}: {1})",
+      "Year": "{1} {0}"
+    },
+    "allDateTimeFormats": [
+      "{1} {0}",
+      "{1} {0}",
+      "{1} {0}",
+      "{1} {0}"
+    ],
+    "short": "{1} {0}",
+    "long": "{1} {0}",
+    "availableFormats": {
+      "EBhm": "E Bh:mm",
+      "MMdd": "MM/dd",
+      "E": "ccc",
+      "hm": "ah:mm",
+      "MMMMd": "M月d日",
+      "Bhm": "Bh:mm",
+      "H": "H時",
+      "yMMMEd": "y年M月d日 E",
+      "Ehms": "E ah:mm:ss",
+      "Ehm": "E ah:mm",
+      "yMEd": "y/M/d（E）",
+      "M": "M月",
+      "MEd": "M/d（E）",
+      "MMMEd": "M月d日 E",
+      "hms": "ah:mm:ss",
+      "hmv": "ah:mm [v]",
+      "Gy": "Gy年",
+      "Bhms": "Bh:mm:ss",
+      "yw-count-other": "Y年的第w週",
+      "hmsv": "ah:mm:ss [v]",
+      "yMM": "y/MM",
+      "GyMMMd": "Gy年M月d日",
+      "yMMMd": "y年M月d日",
+      "yQQQ": "y年QQQ",
+      "d": "d日",
+      "Hm": "HH:mm",
+      "Bh": "Bh時",
+      "ms": "mm:ss",
+      "h": "ah時",
+      "EHms": "E HH:mm:ss",
+      "Hmsv": "HH:mm:ss [v]",
+      "EHm": "E HH:mm",
+      "GyMMMEd": "Gy年M月d日 E",
+      "MMM": "LLL",
+      "yMMM": "y年M月",
+      "Hms": "HH:mm:ss",
+      "Hmv": "HH:mm [v]",
+      "yMd": "y/M/d",
+      "MMMMW-count-other": "MMMM的第W週",
+      "MMMd": "M月d日",
+      "yM": "y/M",
+      "yMMMM": "y年M月",
+      "yQQQQ": "y年QQQQ",
+      "Md": "M/d",
+      "y": "y年",
+      "EBhms": "E Bh:mm:ss",
+      "GyMMM": "Gy年M月",
+      "Ed": "d E"
+    },
+    "timeFormats": null
+  },
+  "standardDateTimeMap": {
+    "short": "y/M/d ah:mm",
+    "medium": "y年M月d日 ah:mm:ss",
+    "long": "y年M月d日 ah:mm:ss [z]",
+    "full": "y年M月d日 EEEE ah:mm:ss [zzzz]"
+  }
+}

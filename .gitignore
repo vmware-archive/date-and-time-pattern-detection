@@ -1,0 +1,28 @@
+target/
+
+# IntelliJ
+\.idea/
+*\.iml
+*\.ipr
+*\.iws
+HELP.md
+mvnw
+mvnw.cmd
+.mvn
+
+# Eclipse
+.classpath
+.project
+.settings
+.checkstyle
+
+# OSX Stuff
+.DS_Store
+
+# generated config files
+/config/
+/conf/
+
+#external config files
+/configdata/data/shared
+

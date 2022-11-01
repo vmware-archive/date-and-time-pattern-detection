@@ -1,0 +1,218 @@
+{
+  "year": {
+    "displayName": "година",
+    "relative-type--1": "миналата година",
+    "relative-type-0": "тази година",
+    "relative-type-1": "следващата година"
+  },
+  "year-short": {
+    "displayName": "г.",
+    "relative-type--1": "мин. г.",
+    "relative-type-0": "т. г.",
+    "relative-type-1": "следв. г."
+  },
+  "year-narrow": {
+    "displayName": "г.",
+    "relative-type--1": "мин. г.",
+    "relative-type-0": "т. г.",
+    "relative-type-1": "сл. г."
+  },
+  "month": {
+    "displayName": "месец",
+    "relative-type--1": "предходен месец",
+    "relative-type-0": "този месец",
+    "relative-type-1": "следващ месец"
+  },
+  "month-short": {
+    "displayName": "мес.",
+    "relative-type--1": "мин. мес.",
+    "relative-type-0": "този мес.",
+    "relative-type-1": "следв. мес."
+  },
+  "month-narrow": {
+    "displayName": "мес.",
+    "relative-type--1": "мин. м.",
+    "relative-type-0": "т. м.",
+    "relative-type-1": "сл. м."
+  },
+  "day": {
+    "displayName": "ден",
+    "relative-type--1": "вчера",
+    "relative-type-0": "днес",
+    "relative-type-1": "утре"
+  },
+  "day-short": {
+    "displayName": "д",
+    "relative-type--1": "вчера",
+    "relative-type-0": "днес",
+    "relative-type-1": "утре"
+  },
+  "day-narrow": {
+    "displayName": "д",
+    "relative-type--1": "вчера",
+    "relative-type-0": "днес",
+    "relative-type-1": "утре"
+  },
+  "quarter": {
+    "displayName": "тримесечие",
+    "relative-type--1": "предходно тримесечие",
+    "relative-type-0": "това тримесечие",
+    "relative-type-1": "следващо тримесечие"
+  },
+  "quarter-short": {
+    "displayName": "трим.",
+    "relative-type--1": "мин. трим.",
+    "relative-type-0": "това трим.",
+    "relative-type-1": "следв. трим."
+  },
+  "quarter-narrow": {
+    "displayName": "трим.",
+    "relative-type--1": "мин. трим.",
+    "relative-type-0": "това трим.",
+    "relative-type-1": "следв. трим."
+  },
+  "mon": {
+    "displayName": null,
+    "relative-type--1": "предходният понеделник",
+    "relative-type-0": "този понеделник",
+    "relative-type-1": "следващият понеделник"
+  },
+  "mon-short": {
+    "displayName": null,
+    "relative-type--1": "предходният пн",
+    "relative-type-0": "този пн",
+    "relative-type-1": "следващият пн"
+  },
+  "mon-narrow": {
+    "displayName": null,
+    "relative-type--1": "предх. пн",
+    "relative-type-0": "този пн",
+    "relative-type-1": "следв. пн"
+  },
+  "tue": {
+    "displayName": null,
+    "relative-type--1": "предходният вторник",
+    "relative-type-0": "този вторник",
+    "relative-type-1": "следващият вторник"
+  },
+  "tue-short": {
+    "displayName": null,
+    "relative-type--1": "предходният вт",
+    "relative-type-0": "този вт",
+    "relative-type-1": "следващият вт"
+  },
+  "tue-narrow": {
+    "displayName": null,
+    "relative-type--1": "предх. вт",
+    "relative-type-0": "този вт",
+    "relative-type-1": "следв. вт"
+  },
+  "wed": {
+    "displayName": null,
+    "relative-type--1": "предходната сряда",
+    "relative-type-0": "тази сряда",
+    "relative-type-1": "следващата сряда"
+  },
+  "wed-short": {
+    "displayName": null,
+    "relative-type--1": "предходната ср",
+    "relative-type-0": "тази ср",
+    "relative-type-1": "следващата ср"
+  },
+  "wed-narrow": {
+    "displayName": null,
+    "relative-type--1": "предх. ср",
+    "relative-type-0": "тази ср",
+    "relative-type-1": "следв. ср"
+  },
+  "thu": {
+    "displayName": null,
+    "relative-type--1": "предходният четвъртък",
+    "relative-type-0": "този четвъртък",
+    "relative-type-1": "следващият четвъртък"
+  },
+  "thu-short": {
+    "displayName": null,
+    "relative-type--1": "предходният чт",
+    "relative-type-0": "този чт",
+    "relative-type-1": "следващият чт"
+  },
+  "thu-narrow": {
+    "displayName": null,
+    "relative-type--1": "предх. чт",
+    "relative-type-0": "този чт",
+    "relative-type-1": "следв. чт"
+  },
+  "fri": {
+    "displayName": null,
+    "relative-type--1": "предходният петък",
+    "relative-type-0": "този петък",
+    "relative-type-1": "следващият петък"
+  },
+  "fri-short": {
+    "displayName": null,
+    "relative-type--1": "предходният пт",
+    "relative-type-0": "този пт",
+    "relative-type-1": "следващият пт"
+  },
+  "fri-narrow": {
+    "displayName": null,
+    "relative-type--1": "предх. пт",
+    "relative-type-0": "този пт",
+    "relative-type-1": "следв. пт"
+  },
+  "sat": {
+    "displayName": null,
+    "relative-type--1": "предходната събота",
+    "relative-type-0": "тази събота",
+    "relative-type-1": "следващата събота"
+  },
+  "sat-short": {
+    "displayName": null,
+    "relative-type--1": "предходната сб",
+    "relative-type-0": "тази сб",
+    "relative-type-1": "следващата сб"
+  },
+  "sat-narrow": {
+    "displayName": null,
+    "relative-type--1": "предх. сб",
+    "relative-type-0": "тази сб",
+    "relative-type-1": "следв. сб"
+  },
+  "sun": {
+    "displayName": null,
+    "relative-type--1": "предходната неделя",
+    "relative-type-0": "тази неделя",
+    "relative-type-1": "следващата неделя"
+  },
+  "sun-short": {
+    "displayName": null,
+    "relative-type--1": "предходната нд",
+    "relative-type-0": "тази нд",
+    "relative-type-1": "следващата нд"
+  },
+  "sun-narrow": {
+    "displayName": null,
+    "relative-type--1": "предх. нд",
+    "relative-type-0": "тази нд",
+    "relative-type-1": "следв. нд"
+  },
+  "hour": {
+    "displayName": "час",
+    "relative-type--1": null,
+    "relative-type-0": "в този час",
+    "relative-type-1": null
+  },
+  "minute": {
+    "displayName": "минута",
+    "relative-type--1": null,
+    "relative-type-0": "в тази минута",
+    "relative-type-1": null
+  },
+  "second": {
+    "displayName": "секунда",
+    "relative-type--1": null,
+    "relative-type-0": "сега",
+    "relative-type-1": null
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "months": {
+    "format": {
+      "narrow": {
+        "11": "11월",
+        "1": "1월",
+        "12": "12월",
+        "2": "2월",
+        "3": "3월",
+        "4": "4월",
+        "5": "5월",
+        "6": "6월",
+        "7": "7월",
+        "8": "8월",
+        "9": "9월",
+        "10": "10월"
+      },
+      "abbreviated": {
+        "11": "11월",
+        "1": "1월",
+        "12": "12월",
+        "2": "2월",
+        "3": "3월",
+        "4": "4월",
+        "5": "5월",
+        "6": "6월",
+        "7": "7월",
+        "8": "8월",
+        "9": "9월",
+        "10": "10월"
+      },
+      "wide": {
+        "11": "11월",
+        "1": "1월",
+        "12": "12월",
+        "2": "2월",
+        "3": "3월",
+        "4": "4월",
+        "5": "5월",
+        "6": "6월",
+        "7": "7월",
+        "8": "8월",
+        "9": "9월",
+        "10": "10월"
+      }
+    },
+    "stand-alone": {
+      "narrow": {
+        "11": "11월",
+        "1": "1월",
+        "12": "12월",
+        "2": "2월",
+        "3": "3월",
+        "4": "4월",
+        "5": "5월",
+        "6": "6월",
+        "7": "7월",
+        "8": "8월",
+        "9": "9월",
+        "10": "10월"
+      },
+      "abbreviated": {
+        "11": "11월",
+        "1": "1월",
+        "12": "12월",
+        "2": "2월",
+        "3": "3월",
+        "4": "4월",
+        "5": "5월",
+        "6": "6월",
+        "7": "7월",
+        "8": "8월",
+        "9": "9월",
+        "10": "10월"
+      },
+      "wide": {
+        "11": "11월",
+        "1": "1월",
+        "12": "12월",
+        "2": "2월",
+        "3": "3월",
+        "4": "4월",
+        "5": "5월",
+        "6": "6월",
+        "7": "7월",
+        "8": "8월",
+        "9": "9월",
+        "10": "10월"
+      }
+    }
+  },
+  "days": {
+    "format": {
+      "narrow": {
+        "thu": "목",
+        "tue": "화",
+        "wed": "수",
+        "sat": "토",
+        "fri": "금",
+        "sun": "일",
+        "mon": "월"
+      },
+      "abbreviated": {
+        "thu": "목",
+        "tue": "화",
+        "wed": "수",
+        "sat": "토",
+        "fri": "금",
+        "sun": "일",
+        "mon": "월"
+      },
+      "wide": {
+        "thu": "목요일",
+        "tue": "화요일",
+        "wed": "수요일",
+        "sat": "토요일",
+        "fri": "금요일",
+        "sun": "일요일",
+        "mon": "월요일"
+      },
+      "short": {
+        "thu": "목",
+        "tue": "화",
+        "wed": "수",
+        "sat": "토",
+        "fri": "금",
+        "sun": "일",
+        "mon": "월"
+      }
+    },
+    "stand-alone": {
+      "narrow": {
+        "thu": "목",
+        "tue": "화",
+        "wed": "수",
+        "sat": "토",
+        "fri": "금",
+        "sun": "일",
+        "mon": "월"
+      },
+      "abbreviated": {
+        "thu": "목",
+        "tue": "화",
+        "wed": "수",
+        "sat": "토",
+        "fri": "금",
+        "sun": "일",
+        "mon": "월"
+      },
+      "wide": {
+        "thu": "목요일",
+        "tue": "화요일",
+        "wed": "수요일",
+        "sat": "토요일",
+        "fri": "금요일",
+        "sun": "일요일",
+        "mon": "월요일"
+      },
+      "short": {
+        "thu": "목",
+        "tue": "화",
+        "wed": "수",
+        "sat": "토",
+        "fri": "금",
+        "sun": "일",
+        "mon": "월"
+      }
+    }
+  },
+  "quarters": {
+    "format": {
+      "abbreviated": {
+        "1": "1분기",
+        "2": "2분기",
+        "3": "3분기",
+        "4": "4분기"
+      },
+      "wide": {
+        "1": "제 1/4분기",
+        "2": "제 2/4분기",
+        "3": "제 3/4분기",
+        "4": "제 4/4분기"
+      }
+    },
+    "stand-alone": {
+      "abbreviated": {
+        "1": "1분기",
+        "2": "2분기",
+        "3": "3분기",
+        "4": "4분기"
+      },
+      "wide": {
+        "1": "제 1/4분기",
+        "2": "제 2/4분기",
+        "3": "제 3/4분기",
+        "4": "제 4/4분기"
+      }
+    }
+  },
+  "dayPeriods": {
+    "format": {
+      "narrow": {
+        "midnight": "자정",
+        "noon": "정오",
+        "night1": "밤",
+        "morning2": "오전",
+        "afternoon1": "오후",
+        "morning1": "새벽",
+        "evening1": "저녁",
+        "am": "AM",
+        "pm": "PM"
+      },
+      "abbreviated": {
+        "midnight": "자정",
+        "noon": "정오",
+        "night1": "밤",
+        "morning2": "오전",
+        "afternoon1": "오후",
+        "morning1": "새벽",
+        "evening1": "저녁",
+        "am": "AM",
+        "pm": "PM"
+      },
+      "wide": {
+        "midnight": "자정",
+        "noon": "정오",
+        "night1": "밤",
+        "morning2": "오전",
+        "afternoon1": "오후",
+        "morning1": "새벽",
+        "evening1": "저녁",
+        "am": "오전",
+        "pm": "오후"
+      }
+    },
+    "stand-alone": {
+      "narrow": {
+        "midnight": "자정",
+        "noon": "정오",
+        "night1": "밤",
+        "morning2": "오전",
+        "afternoon1": "오후",
+        "morning1": "새벽",
+        "evening1": "저녁",
+        "am": "AM",
+        "pm": "PM"
+      },
+      "abbreviated": {
+        "midnight": "자정",
+        "noon": "정오",
+        "night1": "밤",
+        "morning2": "오전",
+        "afternoon1": "오후",
+        "morning1": "새벽",
+        "evening1": "저녁",
+        "am": "AM",
+        "pm": "PM"
+      },
+      "wide": {
+        "midnight": "자정",
+        "noon": "정오",
+        "night1": "밤",
+        "morning2": "오전",
+        "afternoon1": "오후",
+        "morning1": "새벽",
+        "evening1": "저녁",
+        "am": "오전",
+        "pm": "오후"
+      }
+    }
+  },
+  "eras": {
+    "eraNames": {
+      "0": "기원전",
+      "1": "서기",
+      "1-alt-variant": "CE",
+      "0-alt-variant": "BCE"
+    },
+    "eraAbbr": {
+      "0": "BC",
+      "1": "AD",
+      "1-alt-variant": "CE",
+      "0-alt-variant": "BCE"
+    },
+    "eraNarrow": {
+      "0": "BC",
+      "1": "AD",
+      "1-alt-variant": "CE",
+      "0-alt-variant": "BCE"
+    }
+  },
+  "dateFormats": {
+    "medium": "y. M. d.",
+    "full": "y년 M월 d일 EEEE",
+    "short": "yy. M. d.",
+    "long": "y년 M월 d일"
+  },
+  "timeFormats": {
+    "medium": "a h:mm:ss",
+    "full": "a h시 m분 s초 zzzz",
+    "short": "a h:mm",
+    "long": "a h시 m분 s초 z"
+  },
+  "dateTimeFormats": {
+    "medium": "{1} {0}",
+    "full": "{1} {0}",
+    "appendItems": {
+      "Day": "{0} ({2}: {1})",
+      "Day-Of-Week": "{0} {1}",
+      "Era": "{1} {0}",
+      "Hour": "{0} ({2}: {1})",
+      "Minute": "{0} ({2}: {1})",
+      "Month": "{0} ({2}: {1})",
+      "Quarter": "{0} ({2}: {1})",
+      "Second": "{0} ({2}: {1})",
+      "Timezone": "{0} {1}",
+      "Week": "{0} ({2}: {1})",
+      "Year": "{1} {0}"
+    },
+    "allDateTimeFormats": [
+      "{1} {0}",
+      "{1} {0}",
+      "{1} {0}",
+      "{1} {0}"
+    ],
+    "short": "{1} {0}",
+    "long": "{1} {0}",
+    "availableFormats": {
+      "hm": "a h:mm",
+      "HHmmss": "HH:mm:ss",
+      "yMMMEd": "y년 MMM d일 (E)",
+      "Ehms": "(E) a h:mm:ss",
+      "Ehm": "(E) a h:mm",
+      "yMEd": "y. M. d. (E)",
+      "hms": "a h:mm:ss",
+      "hmv": "a h:mm v",
+      "Gy": "G y년",
+      "Bhms": "B h:mm:ss",
+      "yMEEEEd": "y. M. d. EEEE",
+      "yw-count-other": "Y년 w번째 주",
+      "hmsv": "a h:mm:ss v",
+      "GyMMMd": "G y년 MMM d일",
+      "yMMMd": "y년 MMM d일",
+      "yQQQ": "y년 QQQ",
+      "Hm": "HH:mm",
+      "MEEEEd": "M. d. EEEE",
+      "ms": "mm:ss",
+      "EHms": "(E) HH:mm:ss",
+      "GyMMMEEEEd": "G y년 MMM d일 EEEE",
+      "EHm": "(E) HH:mm",
+      "MMM": "LLL",
+      "yMMM": "y년 MMM",
+      "MMMMW-count-other": "MMMM W번째 주",
+      "mmss": "mm:ss",
+      "yMMMEEEEd": "y년 MMM d일 EEEE",
+      "Md": "M. d.",
+      "EBhms": "(E) B h:mm:ss",
+      "Ed": "d일 (E)",
+      "EBhm": "(E) B h:mm",
+      "E": "ccc",
+      "MMMMd": "MMMM d일",
+      "Bhm": "B h:mm",
+      "EEEEd": "d일 EEEE",
+      "H": "H시",
+      "M": "M월",
+      "MEd": "M. d. (E)",
+      "MMMEd": "MMM d일 (E)",
+      "yMM": "y. M.",
+      "MMMEEEEd": "MMM d일 EEEE",
+      "d": "d일",
+      "Bh": "B h시",
+      "h": "a h시",
+      "Hmsv": "H시 m분 s초 v",
+      "GyMMMEd": "G y년 MMM d일 (E)",
+      "Hms": "H시 m분 s초",
+      "Hmv": "HH:mm v",
+      "yMd": "y. M. d.",
+      "MMMd": "MMM d일",
+      "yM": "y. M.",
+      "yMMMM": "y년 MMMM",
+      "yQQQQ": "y년 QQQQ",
+      "y": "y년",
+      "GyMMM": "G y년 MMM"
+    },
+    "timeFormats": null
+  },
+  "standardDateTimeMap": {
+    "short": "yy. M. d. a h:mm",
+    "medium": "y. M. d. a h:mm:ss",
+    "long": "y년 M월 d일 a h시 m분 s초 z",
+    "full": "y년 M월 d일 EEEE a h시 m분 s초 zzzz"
+  }
+}

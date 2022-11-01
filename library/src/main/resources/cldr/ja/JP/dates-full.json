@@ -1,0 +1,391 @@
+{
+  "months": {
+    "format": {
+      "narrow": {
+        "11": "11",
+        "1": "1",
+        "12": "12",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "10"
+      },
+      "abbreviated": {
+        "11": "11月",
+        "1": "1月",
+        "12": "12月",
+        "2": "2月",
+        "3": "3月",
+        "4": "4月",
+        "5": "5月",
+        "6": "6月",
+        "7": "7月",
+        "8": "8月",
+        "9": "9月",
+        "10": "10月"
+      },
+      "wide": {
+        "11": "11月",
+        "1": "1月",
+        "12": "12月",
+        "2": "2月",
+        "3": "3月",
+        "4": "4月",
+        "5": "5月",
+        "6": "6月",
+        "7": "7月",
+        "8": "8月",
+        "9": "9月",
+        "10": "10月"
+      }
+    },
+    "stand-alone": {
+      "narrow": {
+        "11": "11",
+        "1": "1",
+        "12": "12",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "10"
+      },
+      "abbreviated": {
+        "11": "11月",
+        "1": "1月",
+        "12": "12月",
+        "2": "2月",
+        "3": "3月",
+        "4": "4月",
+        "5": "5月",
+        "6": "6月",
+        "7": "7月",
+        "8": "8月",
+        "9": "9月",
+        "10": "10月"
+      },
+      "wide": {
+        "11": "11月",
+        "1": "1月",
+        "12": "12月",
+        "2": "2月",
+        "3": "3月",
+        "4": "4月",
+        "5": "5月",
+        "6": "6月",
+        "7": "7月",
+        "8": "8月",
+        "9": "9月",
+        "10": "10月"
+      }
+    }
+  },
+  "days": {
+    "format": {
+      "narrow": {
+        "thu": "木",
+        "tue": "火",
+        "wed": "水",
+        "sat": "土",
+        "fri": "金",
+        "sun": "日",
+        "mon": "月"
+      },
+      "abbreviated": {
+        "thu": "木",
+        "tue": "火",
+        "wed": "水",
+        "sat": "土",
+        "fri": "金",
+        "sun": "日",
+        "mon": "月"
+      },
+      "wide": {
+        "thu": "木曜日",
+        "tue": "火曜日",
+        "wed": "水曜日",
+        "sat": "土曜日",
+        "fri": "金曜日",
+        "sun": "日曜日",
+        "mon": "月曜日"
+      },
+      "short": {
+        "thu": "木",
+        "tue": "火",
+        "wed": "水",
+        "sat": "土",
+        "fri": "金",
+        "sun": "日",
+        "mon": "月"
+      }
+    },
+    "stand-alone": {
+      "narrow": {
+        "thu": "木",
+        "tue": "火",
+        "wed": "水",
+        "sat": "土",
+        "fri": "金",
+        "sun": "日",
+        "mon": "月"
+      },
+      "abbreviated": {
+        "thu": "木",
+        "tue": "火",
+        "wed": "水",
+        "sat": "土",
+        "fri": "金",
+        "sun": "日",
+        "mon": "月"
+      },
+      "wide": {
+        "thu": "木曜日",
+        "tue": "火曜日",
+        "wed": "水曜日",
+        "sat": "土曜日",
+        "fri": "金曜日",
+        "sun": "日曜日",
+        "mon": "月曜日"
+      },
+      "short": {
+        "thu": "木",
+        "tue": "火",
+        "wed": "水",
+        "sat": "土",
+        "fri": "金",
+        "sun": "日",
+        "mon": "月"
+      }
+    }
+  },
+  "quarters": {
+    "format": {
+      "abbreviated": {
+        "1": "Q1",
+        "2": "Q2",
+        "3": "Q3",
+        "4": "Q4"
+      },
+      "wide": {
+        "1": "第1四半期",
+        "2": "第2四半期",
+        "3": "第3四半期",
+        "4": "第4四半期"
+      }
+    },
+    "stand-alone": {
+      "abbreviated": {
+        "1": "Q1",
+        "2": "Q2",
+        "3": "Q3",
+        "4": "Q4"
+      },
+      "wide": {
+        "1": "第1四半期",
+        "2": "第2四半期",
+        "3": "第3四半期",
+        "4": "第4四半期"
+      }
+    }
+  },
+  "dayPeriods": {
+    "format": {
+      "narrow": {
+        "midnight": "真夜中",
+        "noon": "正午",
+        "night1": "夜",
+        "afternoon1": "昼",
+        "morning1": "朝",
+        "evening1": "夕方",
+        "night2": "夜中",
+        "am": "午前",
+        "pm": "午後"
+      },
+      "abbreviated": {
+        "midnight": "真夜中",
+        "noon": "正午",
+        "night1": "夜",
+        "afternoon1": "昼",
+        "morning1": "朝",
+        "evening1": "夕方",
+        "night2": "夜中",
+        "am": "午前",
+        "pm": "午後"
+      },
+      "wide": {
+        "midnight": "真夜中",
+        "noon": "正午",
+        "night1": "夜",
+        "afternoon1": "昼",
+        "morning1": "朝",
+        "evening1": "夕方",
+        "night2": "夜中",
+        "am": "午前",
+        "pm": "午後"
+      }
+    },
+    "stand-alone": {
+      "narrow": {
+        "midnight": "真夜中",
+        "noon": "正午",
+        "night1": "夜",
+        "afternoon1": "昼",
+        "morning1": "朝",
+        "evening1": "夕方",
+        "night2": "夜中",
+        "am": "午前",
+        "pm": "午後"
+      },
+      "abbreviated": {
+        "midnight": "真夜中",
+        "noon": "正午",
+        "night1": "夜",
+        "afternoon1": "昼",
+        "morning1": "朝",
+        "evening1": "夕方",
+        "night2": "夜中",
+        "am": "午前",
+        "pm": "午後"
+      },
+      "wide": {
+        "midnight": "真夜中",
+        "noon": "正午",
+        "night1": "夜",
+        "afternoon1": "昼",
+        "morning1": "朝",
+        "evening1": "夕方",
+        "night2": "夜中",
+        "am": "午前",
+        "pm": "午後"
+      }
+    }
+  },
+  "eras": {
+    "eraNames": {
+      "0": "紀元前",
+      "1": "西暦",
+      "1-alt-variant": "西暦紀元",
+      "0-alt-variant": "西暦紀元前"
+    },
+    "eraAbbr": {
+      "0": "紀元前",
+      "1": "西暦",
+      "1-alt-variant": "西暦紀元",
+      "0-alt-variant": "西暦紀元前"
+    },
+    "eraNarrow": {
+      "0": "BC",
+      "1": "AD",
+      "1-alt-variant": "西暦紀元",
+      "0-alt-variant": "西暦紀元前"
+    }
+  },
+  "dateFormats": {
+    "medium": "y/MM/dd",
+    "full": "y年M月d日EEEE",
+    "short": "y/MM/dd",
+    "long": "y年M月d日"
+  },
+  "timeFormats": {
+    "medium": "H:mm:ss",
+    "full": "H時mm分ss秒 zzzz",
+    "short": "H:mm",
+    "long": "H:mm:ss z"
+  },
+  "dateTimeFormats": {
+    "medium": "{1} {0}",
+    "full": "{1} {0}",
+    "appendItems": {
+      "Day": "{0} ({2}: {1})",
+      "Day-Of-Week": "{0} {1}",
+      "Era": "{1} {0}",
+      "Hour": "{0} ({2}: {1})",
+      "Minute": "{0} ({2}: {1})",
+      "Month": "{0} ({2}: {1})",
+      "Quarter": "{0} ({2}: {1})",
+      "Second": "{0} ({2}: {1})",
+      "Timezone": "{0} {1}",
+      "Week": "{0} ({2}: {1})",
+      "Year": "{1} {0}"
+    },
+    "allDateTimeFormats": [
+      "{1} {0}",
+      "{1} {0}",
+      "{1} {0}",
+      "{1} {0}"
+    ],
+    "short": "{1} {0}",
+    "long": "{1} {0}",
+    "availableFormats": {
+      "hm": "aK:mm",
+      "yMMMEd": "y年M月d日(E)",
+      "Ehms": "aK:mm:ss (E)",
+      "Ehm": "aK:mm (E)",
+      "yMEd": "y/M/d(E)",
+      "hms": "aK:mm:ss",
+      "hmv": "aK:mm v",
+      "Gy": "Gy年",
+      "Bhms": "BK:mm:ss",
+      "yMEEEEd": "y/M/dEEEE",
+      "yw-count-other": "Y年第w週",
+      "hmsv": "aK:mm:ss v",
+      "GyMMMd": "Gy年M月d日",
+      "yMMMd": "y年M月d日",
+      "yQQQ": "y/QQQ",
+      "Hm": "H:mm",
+      "MEEEEd": "M/dEEEE",
+      "ms": "mm:ss",
+      "EHms": "H:mm:ss (E)",
+      "GyMMMEEEEd": "Gy年M月d日EEEE",
+      "EHm": "H:mm (E)",
+      "MMM": "M月",
+      "yMMM": "y年M月",
+      "MMMMW-count-other": "M月第W週",
+      "yMMMEEEEd": "y年M月d日EEEE",
+      "Md": "M/d",
+      "EBhms": "BK:mm:ss (E)",
+      "Ed": "d日(E)",
+      "EBhm": "BK:mm (E)",
+      "E": "ccc",
+      "MMMMd": "M月d日",
+      "Bhm": "BK:mm",
+      "EEEEd": "d日EEEE",
+      "H": "H時",
+      "M": "M月",
+      "MEd": "M/d(E)",
+      "MMMEd": "M月d日(E)",
+      "yMM": "y/MM",
+      "MMMEEEEd": "M月d日EEEE",
+      "d": "d日",
+      "Bh": "BK時",
+      "h": "aK時",
+      "Hmsv": "H:mm:ss v",
+      "GyMMMEd": "Gy年M月d日(E)",
+      "Hms": "H:mm:ss",
+      "Hmv": "H:mm v",
+      "yMd": "y/M/d",
+      "MMMd": "M月d日",
+      "yM": "y/M",
+      "yMMMM": "y年M月",
+      "yQQQQ": "y年QQQQ",
+      "y": "y年",
+      "GyMMM": "Gy年M月"
+    },
+    "timeFormats": null
+  },
+  "standardDateTimeMap": {
+    "short": "y/MM/dd H:mm",
+    "medium": "y/MM/dd H:mm:ss",
+    "long": "y年M月d日 H:mm:ss z",
+    "full": "y年M月d日EEEE H時mm分ss秒 zzzz"
+  }
+}

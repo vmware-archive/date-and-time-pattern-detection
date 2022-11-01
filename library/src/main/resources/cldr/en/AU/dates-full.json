@@ -1,0 +1,393 @@
+{
+  "months": {
+    "format": {
+      "narrow": {
+        "11": "N",
+        "1": "J",
+        "12": "D",
+        "2": "F",
+        "3": "M",
+        "4": "A",
+        "5": "M",
+        "6": "J",
+        "7": "J",
+        "8": "A",
+        "9": "S",
+        "10": "O"
+      },
+      "abbreviated": {
+        "11": "Nov",
+        "1": "Jan",
+        "12": "Dec",
+        "2": "Feb",
+        "3": "Mar",
+        "4": "Apr",
+        "5": "May",
+        "6": "June",
+        "7": "July",
+        "8": "Aug",
+        "9": "Sept",
+        "10": "Oct"
+      },
+      "wide": {
+        "11": "November",
+        "1": "January",
+        "12": "December",
+        "2": "February",
+        "3": "March",
+        "4": "April",
+        "5": "May",
+        "6": "June",
+        "7": "July",
+        "8": "August",
+        "9": "September",
+        "10": "October"
+      }
+    },
+    "stand-alone": {
+      "narrow": {
+        "11": "N",
+        "1": "J",
+        "12": "D",
+        "2": "F",
+        "3": "M",
+        "4": "A",
+        "5": "M",
+        "6": "J",
+        "7": "J",
+        "8": "A",
+        "9": "S",
+        "10": "O"
+      },
+      "abbreviated": {
+        "11": "Nov",
+        "1": "Jan",
+        "12": "Dec",
+        "2": "Feb",
+        "3": "Mar",
+        "4": "Apr",
+        "5": "May",
+        "6": "Jun",
+        "7": "Jul",
+        "8": "Aug",
+        "9": "Sep",
+        "10": "Oct"
+      },
+      "wide": {
+        "11": "November",
+        "1": "January",
+        "12": "December",
+        "2": "February",
+        "3": "March",
+        "4": "April",
+        "5": "May",
+        "6": "June",
+        "7": "July",
+        "8": "August",
+        "9": "September",
+        "10": "October"
+      }
+    }
+  },
+  "days": {
+    "format": {
+      "narrow": {
+        "thu": "Th.",
+        "tue": "Tu.",
+        "wed": "W.",
+        "sat": "Sa.",
+        "fri": "F.",
+        "sun": "Su.",
+        "mon": "M."
+      },
+      "abbreviated": {
+        "thu": "Thu",
+        "tue": "Tue",
+        "wed": "Wed",
+        "sat": "Sat",
+        "fri": "Fri",
+        "sun": "Sun",
+        "mon": "Mon"
+      },
+      "wide": {
+        "thu": "Thursday",
+        "tue": "Tuesday",
+        "wed": "Wednesday",
+        "sat": "Saturday",
+        "fri": "Friday",
+        "sun": "Sunday",
+        "mon": "Monday"
+      },
+      "short": {
+        "thu": "Th",
+        "tue": "Tu",
+        "wed": "Wed",
+        "sat": "Sat",
+        "fri": "Fri",
+        "sun": "Su",
+        "mon": "Mon"
+      }
+    },
+    "stand-alone": {
+      "narrow": {
+        "thu": "Th.",
+        "tue": "Tu.",
+        "wed": "W.",
+        "sat": "Sa.",
+        "fri": "F.",
+        "sun": "Su.",
+        "mon": "M."
+      },
+      "abbreviated": {
+        "thu": "Thu",
+        "tue": "Tue",
+        "wed": "Wed",
+        "sat": "Sat",
+        "fri": "Fri",
+        "sun": "Sun",
+        "mon": "Mon"
+      },
+      "wide": {
+        "thu": "Thursday",
+        "tue": "Tuesday",
+        "wed": "Wednesday",
+        "sat": "Saturday",
+        "fri": "Friday",
+        "sun": "Sunday",
+        "mon": "Monday"
+      },
+      "short": {
+        "thu": "Th",
+        "tue": "Tu",
+        "wed": "Wed",
+        "sat": "Sat",
+        "fri": "Fri",
+        "sun": "Su",
+        "mon": "Mon"
+      }
+    }
+  },
+  "quarters": {
+    "format": {
+      "abbreviated": {
+        "1": "Q1",
+        "2": "Q2",
+        "3": "Q3",
+        "4": "Q4"
+      },
+      "wide": {
+        "1": "1st quarter",
+        "2": "2nd quarter",
+        "3": "3rd quarter",
+        "4": "4th quarter"
+      }
+    },
+    "stand-alone": {
+      "abbreviated": {
+        "1": "Q1",
+        "2": "Q2",
+        "3": "Q3",
+        "4": "Q4"
+      },
+      "wide": {
+        "1": "1st quarter",
+        "2": "2nd quarter",
+        "3": "3rd quarter",
+        "4": "4th quarter"
+      }
+    }
+  },
+  "dayPeriods": {
+    "format": {
+      "narrow": {
+        "midnight": "midnight",
+        "pm-alt-variant": "pm",
+        "noon": "midday",
+        "am-alt-variant": "am",
+        "night1": "night",
+        "afternoon1": "afternoon",
+        "morning1": "morning",
+        "evening1": "evening",
+        "am": "am",
+        "pm": "pm"
+      },
+      "abbreviated": {
+        "midnight": "midnight",
+        "pm-alt-variant": "pm",
+        "noon": "midday",
+        "am-alt-variant": "am",
+        "night1": "night",
+        "afternoon1": "afternoon",
+        "morning1": "morning",
+        "evening1": "evening",
+        "am": "am",
+        "pm": "pm"
+      },
+      "wide": {
+        "midnight": "midnight",
+        "pm-alt-variant": "pm",
+        "noon": "midday",
+        "am-alt-variant": "am",
+        "night1": "at night",
+        "afternoon1": "in the afternoon",
+        "morning1": "in the morning",
+        "evening1": "in the evening",
+        "am": "am",
+        "pm": "pm"
+      }
+    },
+    "stand-alone": {
+      "narrow": {
+        "midnight": "midnight",
+        "pm-alt-variant": "pm",
+        "noon": "midday",
+        "am-alt-variant": "am",
+        "night1": "night",
+        "afternoon1": "afternoon",
+        "morning1": "morning",
+        "evening1": "evening",
+        "am": "am",
+        "pm": "pm"
+      },
+      "abbreviated": {
+        "midnight": "midnight",
+        "pm-alt-variant": "pm",
+        "noon": "midday",
+        "am-alt-variant": "am",
+        "night1": "night",
+        "afternoon1": "afternoon",
+        "morning1": "morning",
+        "evening1": "evening",
+        "am": "am",
+        "pm": "pm"
+      },
+      "wide": {
+        "midnight": "midnight",
+        "pm-alt-variant": "pm",
+        "noon": "midday",
+        "am-alt-variant": "am",
+        "night1": "night",
+        "afternoon1": "afternoon",
+        "morning1": "morning",
+        "evening1": "evening",
+        "am": "am",
+        "pm": "pm"
+      }
+    }
+  },
+  "eras": {
+    "eraNames": {
+      "0": "Before Christ",
+      "1": "Anno Domini",
+      "1-alt-variant": "Common Era",
+      "0-alt-variant": "Before Common Era"
+    },
+    "eraAbbr": {
+      "0": "BC",
+      "1": "AD",
+      "1-alt-variant": "CE",
+      "0-alt-variant": "BCE"
+    },
+    "eraNarrow": {
+      "0": "B",
+      "1": "A",
+      "1-alt-variant": "CE",
+      "0-alt-variant": "BCE"
+    }
+  },
+  "dateFormats": {
+    "medium": "d MMM y",
+    "full": "EEEE, d MMMM y",
+    "short": "d/M/yy",
+    "long": "d MMMM y"
+  },
+  "timeFormats": {
+    "medium": "h:mm:ss a",
+    "full": "h:mm:ss a zzzz",
+    "short": "h:mm a",
+    "long": "h:mm:ss a z"
+  },
+  "dateTimeFormats": {
+    "medium": "{1}, {0}",
+    "full": "{1} 'at' {0}",
+    "appendItems": {
+      "Day": "{0} ({2}: {1})",
+      "Day-Of-Week": "{0} {1}",
+      "Era": "{0} {1}",
+      "Hour": "{0} ({2}: {1})",
+      "Minute": "{0} ({2}: {1})",
+      "Month": "{0} ({2}: {1})",
+      "Quarter": "{0} ({2}: {1})",
+      "Second": "{0} ({2}: {1})",
+      "Timezone": "{0} {1}",
+      "Week": "{0} ({2}: {1})",
+      "Year": "{0} {1}"
+    },
+    "allDateTimeFormats": [
+      "{1}, {0}",
+      "{1}, {0}",
+      "{1} 'at' {0}",
+      "{1} 'at' {0}"
+    ],
+    "short": "{1}, {0}",
+    "long": "{1} 'at' {0}",
+    "availableFormats": {
+      "MMdd": "dd/MM",
+      "hm": "h:mm a",
+      "yMMMEd": "E, d MMM y",
+      "Ehms": "E h:mm:ss a",
+      "Ehm": "E h:mm a",
+      "yMEd": "E, dd/MM/y",
+      "hms": "h:mm:ss a",
+      "hmv": "h:mm a v",
+      "Gy": "y G",
+      "Bhms": "h:mm:ss B",
+      "yw-count-other": "'week' w 'of' Y",
+      "yw-count-one": "'week' w 'of' Y",
+      "hmsv": "h:mm:ss a v",
+      "GyMMMd": "d MMM y G",
+      "yMMMd": "d MMM y",
+      "yQQQ": "QQQ y",
+      "Hm": "HH:mm",
+      "ms": "mm:ss",
+      "EHms": "E HH:mm:ss",
+      "EHm": "E HH:mm",
+      "MMM": "LLL",
+      "yMMM": "MMM y",
+      "MMMMW-count-other": "'week' W 'of' MMMM",
+      "Md": "d/M",
+      "EBhms": "E, h:mm:ss B",
+      "Ed": "E d",
+      "EBhm": "E, h:mm B",
+      "E": "ccc",
+      "MMMMd": "d MMMM",
+      "Bhm": "h:mm B",
+      "H": "HH",
+      "M": "L",
+      "MEd": "E, d/M",
+      "MMMEd": "E, d MMM",
+      "MMMMW-count-one": "'week' W 'of' MMMM",
+      "d": "d",
+      "Bh": "h B",
+      "h": "h a",
+      "Hmsv": "HH:mm:ss v",
+      "GyMMMEd": "E, d MMM y G",
+      "Hms": "HH:mm:ss",
+      "Hmv": "HH:mm v",
+      "yMd": "dd/MM/y",
+      "MMMd": "d MMM",
+      "yM": "MM/y",
+      "yMMMM": "MMMM y",
+      "yQQQQ": "QQQQ y",
+      "y": "y",
+      "GyMMM": "MMM y G"
+    },
+    "timeFormats": null
+  },
+  "standardDateTimeMap": {
+    "short": "d/M/yy, h:mm a",
+    "medium": "d MMM y, h:mm:ss a",
+    "long": "d MMMM y 'at' h:mm:ss a z",
+    "full": "EEEE, d MMMM y 'at' h:mm:ss a zzzz"
+  }
+}

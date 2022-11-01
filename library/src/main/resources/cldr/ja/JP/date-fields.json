@@ -1,0 +1,218 @@
+{
+  "year": {
+    "displayName": "年",
+    "relative-type--1": "昨年",
+    "relative-type-0": "今年",
+    "relative-type-1": "来年"
+  },
+  "year-short": {
+    "displayName": "年",
+    "relative-type--1": "昨年",
+    "relative-type-0": "今年",
+    "relative-type-1": "来年"
+  },
+  "year-narrow": {
+    "displayName": "年",
+    "relative-type--1": "昨年",
+    "relative-type-0": "今年",
+    "relative-type-1": "来年"
+  },
+  "month": {
+    "displayName": "月",
+    "relative-type--1": "先月",
+    "relative-type-0": "今月",
+    "relative-type-1": "来月"
+  },
+  "month-short": {
+    "displayName": "月",
+    "relative-type--1": "先月",
+    "relative-type-0": "今月",
+    "relative-type-1": "来月"
+  },
+  "month-narrow": {
+    "displayName": "月",
+    "relative-type--1": "先月",
+    "relative-type-0": "今月",
+    "relative-type-1": "来月"
+  },
+  "day": {
+    "displayName": "日",
+    "relative-type--1": "昨日",
+    "relative-type-0": "今日",
+    "relative-type-1": "明日"
+  },
+  "day-short": {
+    "displayName": "日",
+    "relative-type--1": "昨日",
+    "relative-type-0": "今日",
+    "relative-type-1": "明日"
+  },
+  "day-narrow": {
+    "displayName": "日",
+    "relative-type--1": "昨日",
+    "relative-type-0": "今日",
+    "relative-type-1": "明日"
+  },
+  "quarter": {
+    "displayName": "四半期",
+    "relative-type--1": "前四半期",
+    "relative-type-0": "今四半期",
+    "relative-type-1": "翌四半期"
+  },
+  "quarter-short": {
+    "displayName": "四半期",
+    "relative-type--1": "前四半期",
+    "relative-type-0": "今四半期",
+    "relative-type-1": "翌四半期"
+  },
+  "quarter-narrow": {
+    "displayName": "四半期",
+    "relative-type--1": "前四半期",
+    "relative-type-0": "今四半期",
+    "relative-type-1": "翌四半期"
+  },
+  "mon": {
+    "displayName": null,
+    "relative-type--1": "先週の月曜日",
+    "relative-type-0": "今週の月曜日",
+    "relative-type-1": "来週の月曜日"
+  },
+  "mon-short": {
+    "displayName": null,
+    "relative-type--1": "先週の月曜",
+    "relative-type-0": "今週の月曜",
+    "relative-type-1": "来週の月曜"
+  },
+  "mon-narrow": {
+    "displayName": null,
+    "relative-type--1": "先週の月曜",
+    "relative-type-0": "今週の月曜",
+    "relative-type-1": "来週の月曜"
+  },
+  "tue": {
+    "displayName": null,
+    "relative-type--1": "先週の火曜日",
+    "relative-type-0": "今週の火曜日",
+    "relative-type-1": "来週の火曜日"
+  },
+  "tue-short": {
+    "displayName": null,
+    "relative-type--1": "先週の火曜",
+    "relative-type-0": "今週の火曜",
+    "relative-type-1": "来週の火曜"
+  },
+  "tue-narrow": {
+    "displayName": null,
+    "relative-type--1": "先週の火曜",
+    "relative-type-0": "今週の火曜",
+    "relative-type-1": "来週の火曜"
+  },
+  "wed": {
+    "displayName": null,
+    "relative-type--1": "先週の水曜日",
+    "relative-type-0": "今週の水曜日",
+    "relative-type-1": "来週の水曜日"
+  },
+  "wed-short": {
+    "displayName": null,
+    "relative-type--1": "先週の水曜",
+    "relative-type-0": "今週の水曜",
+    "relative-type-1": "来週の水曜"
+  },
+  "wed-narrow": {
+    "displayName": null,
+    "relative-type--1": "先週の水曜",
+    "relative-type-0": "今週の水曜",
+    "relative-type-1": "来週の水曜"
+  },
+  "thu": {
+    "displayName": null,
+    "relative-type--1": "先週の木曜日",
+    "relative-type-0": "今週の木曜日",
+    "relative-type-1": "来週の木曜日"
+  },
+  "thu-short": {
+    "displayName": null,
+    "relative-type--1": "先週の木曜",
+    "relative-type-0": "今週の木曜",
+    "relative-type-1": "来週の木曜"
+  },
+  "thu-narrow": {
+    "displayName": null,
+    "relative-type--1": "先週の木曜",
+    "relative-type-0": "今週の木曜",
+    "relative-type-1": "来週の木曜"
+  },
+  "fri": {
+    "displayName": null,
+    "relative-type--1": "先週の金曜日",
+    "relative-type-0": "今週の金曜日",
+    "relative-type-1": "来週の金曜日"
+  },
+  "fri-short": {
+    "displayName": null,
+    "relative-type--1": "先週の金曜",
+    "relative-type-0": "今週の金曜",
+    "relative-type-1": "来週の金曜"
+  },
+  "fri-narrow": {
+    "displayName": null,
+    "relative-type--1": "先週の金曜",
+    "relative-type-0": "今週の金曜",
+    "relative-type-1": "来週の金曜"
+  },
+  "sat": {
+    "displayName": null,
+    "relative-type--1": "先週の土曜日",
+    "relative-type-0": "今週の土曜日",
+    "relative-type-1": "来週の土曜日"
+  },
+  "sat-short": {
+    "displayName": null,
+    "relative-type--1": "先週の土曜",
+    "relative-type-0": "今週の土曜",
+    "relative-type-1": "来週の土曜"
+  },
+  "sat-narrow": {
+    "displayName": null,
+    "relative-type--1": "先週の土曜",
+    "relative-type-0": "今週の土曜",
+    "relative-type-1": "来週の土曜"
+  },
+  "sun": {
+    "displayName": null,
+    "relative-type--1": "先週の日曜日",
+    "relative-type-0": "今週の日曜日",
+    "relative-type-1": "来週の日曜日"
+  },
+  "sun-short": {
+    "displayName": null,
+    "relative-type--1": "先週の日曜",
+    "relative-type-0": "今週の日曜",
+    "relative-type-1": "来週の日曜"
+  },
+  "sun-narrow": {
+    "displayName": null,
+    "relative-type--1": "先週の日曜",
+    "relative-type-0": "今週の日曜",
+    "relative-type-1": "来週の日曜"
+  },
+  "hour": {
+    "displayName": "時",
+    "relative-type--1": null,
+    "relative-type-0": "1 時間以内",
+    "relative-type-1": null
+  },
+  "minute": {
+    "displayName": "分",
+    "relative-type--1": null,
+    "relative-type-0": "1 分以内",
+    "relative-type-1": null
+  },
+  "second": {
+    "displayName": "秒",
+    "relative-type--1": null,
+    "relative-type-0": "今",
+    "relative-type-1": null
+  }
+}

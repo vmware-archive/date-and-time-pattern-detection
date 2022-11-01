@@ -1,0 +1,218 @@
+{
+  "year": {
+    "displayName": "année",
+    "relative-type--1": "l’année dernière",
+    "relative-type-0": "cette année",
+    "relative-type-1": "l’année prochaine"
+  },
+  "year-short": {
+    "displayName": "an",
+    "relative-type--1": "l’année dernière",
+    "relative-type-0": "cette année",
+    "relative-type-1": "l’année prochaine"
+  },
+  "year-narrow": {
+    "displayName": "a",
+    "relative-type--1": "l’année dernière",
+    "relative-type-0": "cette année",
+    "relative-type-1": "l’année prochaine"
+  },
+  "month": {
+    "displayName": "mois",
+    "relative-type--1": "le mois dernier",
+    "relative-type-0": "ce mois-ci",
+    "relative-type-1": "le mois prochain"
+  },
+  "month-short": {
+    "displayName": "m.",
+    "relative-type--1": "le mois dernier",
+    "relative-type-0": "ce mois-ci",
+    "relative-type-1": "le mois prochain"
+  },
+  "month-narrow": {
+    "displayName": "m.",
+    "relative-type--1": "le mois dernier",
+    "relative-type-0": "ce mois-ci",
+    "relative-type-1": "le mois prochain"
+  },
+  "day": {
+    "displayName": "jour",
+    "relative-type--1": "hier",
+    "relative-type-0": "aujourd’hui",
+    "relative-type-1": "demain"
+  },
+  "day-short": {
+    "displayName": "j",
+    "relative-type--1": "hier",
+    "relative-type-0": "aujourd’hui",
+    "relative-type-1": "demain"
+  },
+  "day-narrow": {
+    "displayName": "j",
+    "relative-type--1": "hier",
+    "relative-type-0": "aujourd’hui",
+    "relative-type-1": "demain"
+  },
+  "quarter": {
+    "displayName": "trimestre",
+    "relative-type--1": "le trimestre dernier",
+    "relative-type-0": "ce trimestre",
+    "relative-type-1": "le trimestre prochain"
+  },
+  "quarter-short": {
+    "displayName": "trim.",
+    "relative-type--1": "le trimestre dernier",
+    "relative-type-0": "ce trimestre",
+    "relative-type-1": "le trimestre prochain"
+  },
+  "quarter-narrow": {
+    "displayName": "trim.",
+    "relative-type--1": "le trimestre dernier",
+    "relative-type-0": "ce trimestre",
+    "relative-type-1": "le trimestre prochain"
+  },
+  "mon": {
+    "displayName": null,
+    "relative-type--1": "lundi dernier",
+    "relative-type-0": "ce lundi",
+    "relative-type-1": "lundi prochain"
+  },
+  "mon-short": {
+    "displayName": null,
+    "relative-type--1": "lun. dernier",
+    "relative-type-0": "ce lun.",
+    "relative-type-1": "lun. prochain"
+  },
+  "mon-narrow": {
+    "displayName": null,
+    "relative-type--1": "lun. dernier",
+    "relative-type-0": "ce lun.",
+    "relative-type-1": "lun. prochain"
+  },
+  "tue": {
+    "displayName": null,
+    "relative-type--1": "mardi dernier",
+    "relative-type-0": "ce mardi",
+    "relative-type-1": "mardi prochain"
+  },
+  "tue-short": {
+    "displayName": null,
+    "relative-type--1": "mar. dernier",
+    "relative-type-0": "ce mar.",
+    "relative-type-1": "mar. prochain"
+  },
+  "tue-narrow": {
+    "displayName": null,
+    "relative-type--1": "mar. dernier",
+    "relative-type-0": "ce mar.",
+    "relative-type-1": "mar. prochain"
+  },
+  "wed": {
+    "displayName": null,
+    "relative-type--1": "mercredi dernier",
+    "relative-type-0": "ce mercredi",
+    "relative-type-1": "mercredi prochain"
+  },
+  "wed-short": {
+    "displayName": null,
+    "relative-type--1": "mer. dernier",
+    "relative-type-0": "ce mer.",
+    "relative-type-1": "mer. prochain"
+  },
+  "wed-narrow": {
+    "displayName": null,
+    "relative-type--1": "mer. dernier",
+    "relative-type-0": "ce mer.",
+    "relative-type-1": "mer. prochain"
+  },
+  "thu": {
+    "displayName": null,
+    "relative-type--1": "jeudi dernier",
+    "relative-type-0": "ce jeudi",
+    "relative-type-1": "jeudi prochain"
+  },
+  "thu-short": {
+    "displayName": null,
+    "relative-type--1": "jeu. dernier",
+    "relative-type-0": "ce jeu.",
+    "relative-type-1": "jeu. prochain"
+  },
+  "thu-narrow": {
+    "displayName": null,
+    "relative-type--1": "jeu. dernier",
+    "relative-type-0": "ce jeu.",
+    "relative-type-1": "jeu. prochain"
+  },
+  "fri": {
+    "displayName": null,
+    "relative-type--1": "vendredi dernier",
+    "relative-type-0": "ce vendredi",
+    "relative-type-1": "vendredi prochain"
+  },
+  "fri-short": {
+    "displayName": null,
+    "relative-type--1": "ven. dernier",
+    "relative-type-0": "ce ven.",
+    "relative-type-1": "ven. prochain"
+  },
+  "fri-narrow": {
+    "displayName": null,
+    "relative-type--1": "ven. dernier",
+    "relative-type-0": "ce ven.",
+    "relative-type-1": "ven. prochain"
+  },
+  "sat": {
+    "displayName": null,
+    "relative-type--1": "samedi dernier",
+    "relative-type-0": "ce samedi",
+    "relative-type-1": "samedi prochain"
+  },
+  "sat-short": {
+    "displayName": null,
+    "relative-type--1": "sam. dernier",
+    "relative-type-0": "ce sam.",
+    "relative-type-1": "sam. prochain"
+  },
+  "sat-narrow": {
+    "displayName": null,
+    "relative-type--1": "sam. dernier",
+    "relative-type-0": "ce sam.",
+    "relative-type-1": "sam. prochain"
+  },
+  "sun": {
+    "displayName": null,
+    "relative-type--1": "dimanche dernier",
+    "relative-type-0": "ce dimanche",
+    "relative-type-1": "dimanche prochain"
+  },
+  "sun-short": {
+    "displayName": null,
+    "relative-type--1": "dim. dernier",
+    "relative-type-0": "ce dim.",
+    "relative-type-1": "dim. prochain"
+  },
+  "sun-narrow": {
+    "displayName": null,
+    "relative-type--1": "dim. dernier",
+    "relative-type-0": "ce dim.",
+    "relative-type-1": "dim. prochain"
+  },
+  "hour": {
+    "displayName": "heure",
+    "relative-type--1": null,
+    "relative-type-0": "cette heure-ci",
+    "relative-type-1": null
+  },
+  "minute": {
+    "displayName": "minute",
+    "relative-type--1": null,
+    "relative-type-0": "cette minute-ci",
+    "relative-type-1": null
+  },
+  "second": {
+    "displayName": "seconde",
+    "relative-type--1": null,
+    "relative-type-0": "maintenant",
+    "relative-type-1": null
+  }
+}

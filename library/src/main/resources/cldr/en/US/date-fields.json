@@ -1,0 +1,218 @@
+{
+  "year": {
+    "displayName": "year",
+    "relative-type--1": "last year",
+    "relative-type-0": "this year",
+    "relative-type-1": "next year"
+  },
+  "year-short": {
+    "displayName": "yr.",
+    "relative-type--1": "last yr.",
+    "relative-type-0": "this yr.",
+    "relative-type-1": "next yr."
+  },
+  "year-narrow": {
+    "displayName": "yr.",
+    "relative-type--1": "last yr.",
+    "relative-type-0": "this yr.",
+    "relative-type-1": "next yr."
+  },
+  "month": {
+    "displayName": "month",
+    "relative-type--1": "last month",
+    "relative-type-0": "this month",
+    "relative-type-1": "next month"
+  },
+  "month-short": {
+    "displayName": "mo.",
+    "relative-type--1": "last mo.",
+    "relative-type-0": "this mo.",
+    "relative-type-1": "next mo."
+  },
+  "month-narrow": {
+    "displayName": "mo.",
+    "relative-type--1": "last mo.",
+    "relative-type-0": "this mo.",
+    "relative-type-1": "next mo."
+  },
+  "day": {
+    "displayName": "day",
+    "relative-type--1": "yesterday",
+    "relative-type-0": "today",
+    "relative-type-1": "tomorrow"
+  },
+  "day-short": {
+    "displayName": "day",
+    "relative-type--1": "yesterday",
+    "relative-type-0": "today",
+    "relative-type-1": "tomorrow"
+  },
+  "day-narrow": {
+    "displayName": "day",
+    "relative-type--1": "yesterday",
+    "relative-type-0": "today",
+    "relative-type-1": "tomorrow"
+  },
+  "quarter": {
+    "displayName": "quarter",
+    "relative-type--1": "last quarter",
+    "relative-type-0": "this quarter",
+    "relative-type-1": "next quarter"
+  },
+  "quarter-short": {
+    "displayName": "qtr.",
+    "relative-type--1": "last qtr.",
+    "relative-type-0": "this qtr.",
+    "relative-type-1": "next qtr."
+  },
+  "quarter-narrow": {
+    "displayName": "qtr.",
+    "relative-type--1": "last qtr.",
+    "relative-type-0": "this qtr.",
+    "relative-type-1": "next qtr."
+  },
+  "mon": {
+    "displayName": null,
+    "relative-type--1": "last Monday",
+    "relative-type-0": "this Monday",
+    "relative-type-1": "next Monday"
+  },
+  "mon-short": {
+    "displayName": null,
+    "relative-type--1": "last Mon.",
+    "relative-type-0": "this Mon.",
+    "relative-type-1": "next Mon."
+  },
+  "mon-narrow": {
+    "displayName": null,
+    "relative-type--1": "last M",
+    "relative-type-0": "this M",
+    "relative-type-1": "next M"
+  },
+  "tue": {
+    "displayName": null,
+    "relative-type--1": "last Tuesday",
+    "relative-type-0": "this Tuesday",
+    "relative-type-1": "next Tuesday"
+  },
+  "tue-short": {
+    "displayName": null,
+    "relative-type--1": "last Tue.",
+    "relative-type-0": "this Tue.",
+    "relative-type-1": "next Tue."
+  },
+  "tue-narrow": {
+    "displayName": null,
+    "relative-type--1": "last Tu",
+    "relative-type-0": "this Tu",
+    "relative-type-1": "next Tu"
+  },
+  "wed": {
+    "displayName": null,
+    "relative-type--1": "last Wednesday",
+    "relative-type-0": "this Wednesday",
+    "relative-type-1": "next Wednesday"
+  },
+  "wed-short": {
+    "displayName": null,
+    "relative-type--1": "last Wed.",
+    "relative-type-0": "this Wed.",
+    "relative-type-1": "next Wed."
+  },
+  "wed-narrow": {
+    "displayName": null,
+    "relative-type--1": "last W",
+    "relative-type-0": "this W",
+    "relative-type-1": "next W"
+  },
+  "thu": {
+    "displayName": null,
+    "relative-type--1": "last Thursday",
+    "relative-type-0": "this Thursday",
+    "relative-type-1": "next Thursday"
+  },
+  "thu-short": {
+    "displayName": null,
+    "relative-type--1": "last Thu.",
+    "relative-type-0": "this Thu.",
+    "relative-type-1": "next Thu."
+  },
+  "thu-narrow": {
+    "displayName": null,
+    "relative-type--1": "last Th",
+    "relative-type-0": "this Th",
+    "relative-type-1": "next Th"
+  },
+  "fri": {
+    "displayName": null,
+    "relative-type--1": "last Friday",
+    "relative-type-0": "this Friday",
+    "relative-type-1": "next Friday"
+  },
+  "fri-short": {
+    "displayName": null,
+    "relative-type--1": "last Fri.",
+    "relative-type-0": "this Fri.",
+    "relative-type-1": "next Fri."
+  },
+  "fri-narrow": {
+    "displayName": null,
+    "relative-type--1": "last F",
+    "relative-type-0": "this F",
+    "relative-type-1": "next F"
+  },
+  "sat": {
+    "displayName": null,
+    "relative-type--1": "last Saturday",
+    "relative-type-0": "this Saturday",
+    "relative-type-1": "next Saturday"
+  },
+  "sat-short": {
+    "displayName": null,
+    "relative-type--1": "last Sat.",
+    "relative-type-0": "this Sat.",
+    "relative-type-1": "next Sat."
+  },
+  "sat-narrow": {
+    "displayName": null,
+    "relative-type--1": "last Sa",
+    "relative-type-0": "this Sa",
+    "relative-type-1": "next Sa"
+  },
+  "sun": {
+    "displayName": null,
+    "relative-type--1": "last Sunday",
+    "relative-type-0": "this Sunday",
+    "relative-type-1": "next Sunday"
+  },
+  "sun-short": {
+    "displayName": null,
+    "relative-type--1": "last Sun.",
+    "relative-type-0": "this Sun.",
+    "relative-type-1": "next Sun."
+  },
+  "sun-narrow": {
+    "displayName": null,
+    "relative-type--1": "last Su",
+    "relative-type-0": "this Su",
+    "relative-type-1": "next Su"
+  },
+  "hour": {
+    "displayName": "hour",
+    "relative-type--1": null,
+    "relative-type-0": "this hour",
+    "relative-type-1": null
+  },
+  "minute": {
+    "displayName": "minute",
+    "relative-type--1": null,
+    "relative-type-0": "this minute",
+    "relative-type-1": null
+  },
+  "second": {
+    "displayName": "second",
+    "relative-type--1": null,
+    "relative-type-0": "now",
+    "relative-type-1": null
+  }
+}

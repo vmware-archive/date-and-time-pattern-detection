@@ -1,0 +1,16 @@
+locales: en-US, de-DE, fr-FR, es-ES, ja-JP, ko-KR, zh-CN, zh-TW, ru-RU, it-IT, nl-NL,
+  pt-BR, pt-PT, en-AU, en-CA, en-GB, it-CH, bg-BG
+cldr-version: 39.0.0
+iso-patterns:
+  dates:
+    ISO_8601-date-pattern: yyyy-MM-dd
+    ISO_8601-ordinal-date-pattern: yyyy-D
+  date-times:
+    ISO_8601-date-time-pattern: yyyy-MM-dd'T'HH:mm:ss
+  zoned-date-times:
+    ISO_8601-date-time-offset-pattern: yyyy-MM-dd'T'HH:mm:ssZZZZZ
+    ISO_8601-zoned-date-time-pattern: yyyy-MM-dd'T'HH:mm:ssZZZZZ'['VV']'
+    ISO_8601-date-offset-pattern: yyyy-MM-ddZZZZZ
+  times:
+    ISO_8601-time-offset-pattern: HH:mm:ssZZZZZ
+    ISO_8601-time-offset-without-seconds-pattern: HH:mmZZZZZ

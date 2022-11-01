@@ -1,0 +1,218 @@
+{
+  "year": {
+    "displayName": "年",
+    "relative-type--1": "去年",
+    "relative-type-0": "今年",
+    "relative-type-1": "明年"
+  },
+  "year-short": {
+    "displayName": "年",
+    "relative-type--1": "去年",
+    "relative-type-0": "今年",
+    "relative-type-1": "明年"
+  },
+  "year-narrow": {
+    "displayName": "年",
+    "relative-type--1": "去年",
+    "relative-type-0": "今年",
+    "relative-type-1": "明年"
+  },
+  "month": {
+    "displayName": "月",
+    "relative-type--1": "上個月",
+    "relative-type-0": "本月",
+    "relative-type-1": "下個月"
+  },
+  "month-short": {
+    "displayName": "月",
+    "relative-type--1": "上個月",
+    "relative-type-0": "本月",
+    "relative-type-1": "下個月"
+  },
+  "month-narrow": {
+    "displayName": "月",
+    "relative-type--1": "上個月",
+    "relative-type-0": "本月",
+    "relative-type-1": "下個月"
+  },
+  "day": {
+    "displayName": "日",
+    "relative-type--1": "昨天",
+    "relative-type-0": "今天",
+    "relative-type-1": "明天"
+  },
+  "day-short": {
+    "displayName": "日",
+    "relative-type--1": "昨天",
+    "relative-type-0": "今天",
+    "relative-type-1": "明天"
+  },
+  "day-narrow": {
+    "displayName": "日",
+    "relative-type--1": "昨天",
+    "relative-type-0": "今天",
+    "relative-type-1": "明天"
+  },
+  "quarter": {
+    "displayName": "季",
+    "relative-type--1": "上一季",
+    "relative-type-0": "這一季",
+    "relative-type-1": "下一季"
+  },
+  "quarter-short": {
+    "displayName": "季",
+    "relative-type--1": "上一季",
+    "relative-type-0": "這一季",
+    "relative-type-1": "下一季"
+  },
+  "quarter-narrow": {
+    "displayName": "季",
+    "relative-type--1": "上一季",
+    "relative-type-0": "這一季",
+    "relative-type-1": "下一季"
+  },
+  "mon": {
+    "displayName": null,
+    "relative-type--1": "上週一",
+    "relative-type-0": "本週一",
+    "relative-type-1": "下週一"
+  },
+  "mon-short": {
+    "displayName": null,
+    "relative-type--1": "上週一",
+    "relative-type-0": "本週一",
+    "relative-type-1": "下週一"
+  },
+  "mon-narrow": {
+    "displayName": null,
+    "relative-type--1": "上週一",
+    "relative-type-0": "本週一",
+    "relative-type-1": "下週一"
+  },
+  "tue": {
+    "displayName": null,
+    "relative-type--1": "上週二",
+    "relative-type-0": "本週二",
+    "relative-type-1": "下週二"
+  },
+  "tue-short": {
+    "displayName": null,
+    "relative-type--1": "上週二",
+    "relative-type-0": "本週二",
+    "relative-type-1": "下週二"
+  },
+  "tue-narrow": {
+    "displayName": null,
+    "relative-type--1": "上週二",
+    "relative-type-0": "本週二",
+    "relative-type-1": "下週二"
+  },
+  "wed": {
+    "displayName": null,
+    "relative-type--1": "上週三",
+    "relative-type-0": "本週三",
+    "relative-type-1": "下週三"
+  },
+  "wed-short": {
+    "displayName": null,
+    "relative-type--1": "上週三",
+    "relative-type-0": "本週三",
+    "relative-type-1": "下週三"
+  },
+  "wed-narrow": {
+    "displayName": null,
+    "relative-type--1": "上週三",
+    "relative-type-0": "本週三",
+    "relative-type-1": "下週三"
+  },
+  "thu": {
+    "displayName": null,
+    "relative-type--1": "上週四",
+    "relative-type-0": "本週四",
+    "relative-type-1": "下週四"
+  },
+  "thu-short": {
+    "displayName": null,
+    "relative-type--1": "上週四",
+    "relative-type-0": "本週四",
+    "relative-type-1": "下週四"
+  },
+  "thu-narrow": {
+    "displayName": null,
+    "relative-type--1": "上週四",
+    "relative-type-0": "本週四",
+    "relative-type-1": "下週四"
+  },
+  "fri": {
+    "displayName": null,
+    "relative-type--1": "上週五",
+    "relative-type-0": "本週五",
+    "relative-type-1": "下週五"
+  },
+  "fri-short": {
+    "displayName": null,
+    "relative-type--1": "上週五",
+    "relative-type-0": "本週五",
+    "relative-type-1": "下週五"
+  },
+  "fri-narrow": {
+    "displayName": null,
+    "relative-type--1": "上週五",
+    "relative-type-0": "本週五",
+    "relative-type-1": "下週五"
+  },
+  "sat": {
+    "displayName": null,
+    "relative-type--1": "上週六",
+    "relative-type-0": "本週六",
+    "relative-type-1": "下週六"
+  },
+  "sat-short": {
+    "displayName": null,
+    "relative-type--1": "上週六",
+    "relative-type-0": "本週六",
+    "relative-type-1": "下週六"
+  },
+  "sat-narrow": {
+    "displayName": null,
+    "relative-type--1": "上週六",
+    "relative-type-0": "本週六",
+    "relative-type-1": "下週六"
+  },
+  "sun": {
+    "displayName": null,
+    "relative-type--1": "上週日",
+    "relative-type-0": "本週日",
+    "relative-type-1": "下週日"
+  },
+  "sun-short": {
+    "displayName": null,
+    "relative-type--1": "上週日",
+    "relative-type-0": "本週日",
+    "relative-type-1": "下週日"
+  },
+  "sun-narrow": {
+    "displayName": null,
+    "relative-type--1": "上週日",
+    "relative-type-0": "本週日",
+    "relative-type-1": "下週日"
+  },
+  "hour": {
+    "displayName": "小時",
+    "relative-type--1": null,
+    "relative-type-0": "這一小時",
+    "relative-type-1": null
+  },
+  "minute": {
+    "displayName": "分鐘",
+    "relative-type--1": null,
+    "relative-type-0": "這一分鐘",
+    "relative-type-1": null
+  },
+  "second": {
+    "displayName": "秒",
+    "relative-type--1": null,
+    "relative-type-0": "現在",
+    "relative-type-1": null
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "year": {
+    "displayName": "год",
+    "relative-type--1": "в прошлом году",
+    "relative-type-0": "в этом году",
+    "relative-type-1": "в следующем году"
+  },
+  "year-short": {
+    "displayName": "г.",
+    "relative-type--1": "в прошлом г.",
+    "relative-type-0": "в этом г.",
+    "relative-type-1": "в след. г."
+  },
+  "year-narrow": {
+    "displayName": "г.",
+    "relative-type--1": "в пр. г.",
+    "relative-type-0": "в эт. г.",
+    "relative-type-1": "в сл. г."
+  },
+  "month": {
+    "displayName": "месяц",
+    "relative-type--1": "в прошлом месяце",
+    "relative-type-0": "в этом месяце",
+    "relative-type-1": "в следующем месяце"
+  },
+  "month-short": {
+    "displayName": "мес.",
+    "relative-type--1": "в прошлом мес.",
+    "relative-type-0": "в этом мес.",
+    "relative-type-1": "в следующем мес."
+  },
+  "month-narrow": {
+    "displayName": "мес.",
+    "relative-type--1": "в пр. мес.",
+    "relative-type-0": "в эт. мес.",
+    "relative-type-1": "в след. мес."
+  },
+  "day": {
+    "displayName": "день",
+    "relative-type--1": "вчера",
+    "relative-type-0": "сегодня",
+    "relative-type-1": "завтра"
+  },
+  "day-short": {
+    "displayName": "дн.",
+    "relative-type--1": "вчера",
+    "relative-type-0": "сегодня",
+    "relative-type-1": "завтра"
+  },
+  "day-narrow": {
+    "displayName": "дн.",
+    "relative-type--1": "вчера",
+    "relative-type-0": "сегодня",
+    "relative-type-1": "завтра"
+  },
+  "quarter": {
+    "displayName": "квартал",
+    "relative-type--1": "в прошлом квартале",
+    "relative-type-0": "в текущем квартале",
+    "relative-type-1": "в следующем квартале"
+  },
+  "quarter-short": {
+    "displayName": "кв.",
+    "relative-type--1": "последний кв.",
+    "relative-type-0": "текущий кв.",
+    "relative-type-1": "следующий кв."
+  },
+  "quarter-narrow": {
+    "displayName": "кв.",
+    "relative-type--1": "посл. кв.",
+    "relative-type-0": "тек. кв.",
+    "relative-type-1": "след. кв."
+  },
+  "mon": {
+    "displayName": null,
+    "relative-type--1": "в прошлый понедельник",
+    "relative-type-0": "в этот понедельник",
+    "relative-type-1": "в следующий понедельник"
+  },
+  "mon-short": {
+    "displayName": null,
+    "relative-type--1": "в прош. пн.",
+    "relative-type-0": "в этот пн.",
+    "relative-type-1": "в след. пн."
+  },
+  "mon-narrow": {
+    "displayName": null,
+    "relative-type--1": "в прош. пн.",
+    "relative-type-0": "в этот пн.",
+    "relative-type-1": "в след. пн."
+  },
+  "tue": {
+    "displayName": null,
+    "relative-type--1": "в прошлый вторник",
+    "relative-type-0": "в этот вторник",
+    "relative-type-1": "в следующий вторник"
+  },
+  "tue-short": {
+    "displayName": null,
+    "relative-type--1": "в прош. вт.",
+    "relative-type-0": "в этот вт.",
+    "relative-type-1": "в след. вт."
+  },
+  "tue-narrow": {
+    "displayName": null,
+    "relative-type--1": "в прош. вт.",
+    "relative-type-0": "в этот вт.",
+    "relative-type-1": "в след. вт."
+  },
+  "wed": {
+    "displayName": null,
+    "relative-type--1": "в прошлую среду",
+    "relative-type-0": "в эту среду",
+    "relative-type-1": "в следующую среду"
+  },
+  "wed-short": {
+    "displayName": null,
+    "relative-type--1": "в прош. ср.",
+    "relative-type-0": "в эту ср.",
+    "relative-type-1": "в след. ср."
+  },
+  "wed-narrow": {
+    "displayName": null,
+    "relative-type--1": "в прош. ср.",
+    "relative-type-0": "в эту ср.",
+    "relative-type-1": "в след. ср."
+  },
+  "thu": {
+    "displayName": null,
+    "relative-type--1": "в прошлый четверг",
+    "relative-type-0": "в этот четверг",
+    "relative-type-1": "в следующий четверг"
+  },
+  "thu-short": {
+    "displayName": null,
+    "relative-type--1": "в прош. чт.",
+    "relative-type-0": "в этот чт.",
+    "relative-type-1": "в след. чт."
+  },
+  "thu-narrow": {
+    "displayName": null,
+    "relative-type--1": "в прош. чт.",
+    "relative-type-0": "в этот чт.",
+    "relative-type-1": "в след. чт."
+  },
+  "fri": {
+    "displayName": null,
+    "relative-type--1": "в прошлую пятницу",
+    "relative-type-0": "в эту пятницу",
+    "relative-type-1": "в следующую пятницу"
+  },
+  "fri-short": {
+    "displayName": null,
+    "relative-type--1": "в прош. пт.",
+    "relative-type-0": "в эту пт.",
+    "relative-type-1": "в след. пт."
+  },
+  "fri-narrow": {
+    "displayName": null,
+    "relative-type--1": "в прош. пт.",
+    "relative-type-0": "в эту пт.",
+    "relative-type-1": "в след. пт."
+  },
+  "sat": {
+    "displayName": null,
+    "relative-type--1": "в прошлую субботу",
+    "relative-type-0": "в эту субботу",
+    "relative-type-1": "в следующую субботу"
+  },
+  "sat-short": {
+    "displayName": null,
+    "relative-type--1": "в прош. сб.",
+    "relative-type-0": "в эту сб.",
+    "relative-type-1": "в след. сб."
+  },
+  "sat-narrow": {
+    "displayName": null,
+    "relative-type--1": "в прош. сб.",
+    "relative-type-0": "в эту сб.",
+    "relative-type-1": "в след. сб."
+  },
+  "sun": {
+    "displayName": null,
+    "relative-type--1": "в прошлое воскресенье",
+    "relative-type-0": "в это воскресенье",
+    "relative-type-1": "в следующее воскресенье"
+  },
+  "sun-short": {
+    "displayName": null,
+    "relative-type--1": "в прош. вс.",
+    "relative-type-0": "в это вс.",
+    "relative-type-1": "в след. вс."
+  },
+  "sun-narrow": {
+    "displayName": null,
+    "relative-type--1": "в прош. вс.",
+    "relative-type-0": "в это вс.",
+    "relative-type-1": "в след. вс."
+  },
+  "hour": {
+    "displayName": "час",
+    "relative-type--1": null,
+    "relative-type-0": "в этот час",
+    "relative-type-1": null
+  },
+  "minute": {
+    "displayName": "минута",
+    "relative-type--1": null,
+    "relative-type-0": "в эту минуту",
+    "relative-type-1": null
+  },
+  "second": {
+    "displayName": "секунда",
+    "relative-type--1": null,
+    "relative-type-0": "сейчас",
+    "relative-type-1": null
+  }
+}
