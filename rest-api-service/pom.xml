@@ -10,14 +10,14 @@
     <parent>
         <artifactId>date-time-pattern-detection-parent</artifactId>
         <groupId>com.vmware.g11n</groupId>
-        <version>0.0.3</version>
+        <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.vmware.g11n</groupId>
     <artifactId>date-time-pattern-detection-rest-api</artifactId>
     <name>date-time-pattern-detection-rest-api</name>
-    <version>0.0.4</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <properties>
