@@ -10,7 +10,7 @@
     <parent>
         <artifactId>date-time-pattern-detection-parent</artifactId>
         <groupId>com.vmware.g11n</groupId>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 

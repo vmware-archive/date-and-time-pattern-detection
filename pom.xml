@@ -15,7 +15,7 @@
 
     <groupId>com.vmware.g11n</groupId>
     <artifactId>date-time-pattern-detection-parent</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>date-time-pattern-detection-parent</name>
     <description>Parent POM for Date/Time Pattern Detection Service, Models and Library</description>
     <packaging>pom</packaging>
@@ -37,12 +37,12 @@
             <dependency>
                 <groupId>com.vmware.g11n</groupId>
                 <artifactId>date-time-pattern-detection-model</artifactId>
-                <version>1.0.0</version>
+                <version>1.0.1</version>
             </dependency>
             <dependency>
                 <groupId>com.vmware.g11n</groupId>
                 <artifactId>date-time-pattern-detection-library</artifactId>
-                <version>1.0.0</version>
+                <version>1.0.1</version>
             </dependency>
             <dependency>
                 <groupId>com.vmware.g11n</groupId>
