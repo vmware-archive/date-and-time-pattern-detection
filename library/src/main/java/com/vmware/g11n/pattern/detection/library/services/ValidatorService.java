@@ -11,8 +11,8 @@ import com.vmware.g11n.pattern.detection.model.serviceData.*;
 
 import java.util.*;
 
-import static com.vmware.g11n.pattern.detection.library.data.Builders.buildValidationResultResponse;
-import static com.vmware.g11n.pattern.detection.library.utils.CldrProcessors.detectPatternFromCldrFormats;
+import static com.vmware.g11n.pattern.detection.library.data.Builders.buildValidationResult;
+import static com.vmware.g11n.pattern.detection.library.utils.CldrProcessors.getValidatedPatternFromCldrFormats;
 import static com.vmware.g11n.pattern.detection.library.utils.IsoProcessors.detectPatternFromPredefinedIsoFormats;
 import static com.vmware.g11n.pattern.detection.library.utils.ResourceLoaders.loadCldrData;
 import static com.vmware.g11n.pattern.detection.library.utils.UserInputProcessors.*;
@@ -40,16 +40,16 @@ public class ValidatorService {
         CldrData cldrData = loadCldrData(providedLocale);
 
         // Try to match the input as a whole to a CLDR pattern
-        ValidatedPattern detectedPattern = detectPatternFromCldrFormats(cldrData, input, providedLocale);
+        ValidatedPattern detectedPattern = getValidatedPatternFromCldrFormats(cldrData, input, providedLocale);
         if (!detectedPattern.pattern.isEmpty()) {
-            return buildValidationResultResponse(input, providedLocale.getDisplayName(), true, detectedPattern)
+            return buildValidationResult(input, providedLocale.getDisplayName(), true, detectedPattern)
                     .toBuilder().suggestions(generateSuggestions()).errors(getErrors()).build();
         }
 
         // Try to match the input as a whole to ISO locale-independent patterns
         detectedPattern = detectPatternFromPredefinedIsoFormats(input);
         if (!detectedPattern.pattern.isEmpty()) {
-            return buildValidationResultResponse(input, providedLocale.getDisplayName(), true, detectedPattern)
+            return buildValidationResult(input, providedLocale.getDisplayName(), true, detectedPattern)
                     .toBuilder().suggestions(generateSuggestions()).errors(getErrors()).build();
         }
 
@@ -58,7 +58,7 @@ public class ValidatorService {
 
         // Generate pattern by traversing each component and mapping it to a skeleton pattern
         ValidatedPattern generatedPattern = patternBuilders.generatePatternFromComponents(listOfDateElements, providedLocale, cldrData);
-        return buildValidationResultResponse(input, providedLocale.getDisplayName(), generatedPattern != null, generatedPattern)
+        return buildValidationResult(input, providedLocale.getDisplayName(), generatedPattern != null, generatedPattern)
                 .toBuilder().suggestions(generateSuggestions()).errors(getErrors()).build();
     }
 

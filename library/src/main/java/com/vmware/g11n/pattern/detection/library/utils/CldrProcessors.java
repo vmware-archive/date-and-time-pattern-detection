@@ -27,33 +27,33 @@ import static org.apache.commons.lang3.StringUtils.EMPTY;
 public class CldrProcessors {
 
     // Try to match the input from any CLDR full pattern
-    public static ValidatedPattern detectPatternFromCldrFormats(CldrData cldrData, String input, Locale locale) {
-        ValidatedPattern validatedPattern = detectStandardDateCldrFormat(cldrData, input, locale);
+    public static ValidatedPattern getValidatedPatternFromCldrFormats(CldrData cldrData, String input, Locale locale) {
+        ValidatedPattern validatedPattern = detectStandardDateCldrPattern(cldrData, input, locale);
         if (nonNull(validatedPattern)) {
             return validatedPattern;
         }
 
-        validatedPattern = detectStandardTimeCldrFormat(cldrData, input, locale);
+        validatedPattern = detectStandardTimeCldrPattern(cldrData, input, locale);
         if (nonNull(validatedPattern)) {
             return validatedPattern;
         }
 
-        validatedPattern = detectStandardDateTimeCldrFormats(cldrData, input, locale);
+        validatedPattern = detectStandardDateTimeCldrPattern(cldrData, input, locale);
         if (nonNull(validatedPattern)) {
             return validatedPattern;
         }
 
-        validatedPattern = detectNonStandardDateCldrFormat(cldrData, input, locale);
+        validatedPattern = detectNonStandardDateCldrPattern(cldrData, input, locale);
         if (nonNull(validatedPattern)) {
             return validatedPattern;
         }
 
-        validatedPattern = detectNonStandardTimeCldrFormat(cldrData, input, locale);
+        validatedPattern = detectNonStandardTimeCldrPattern(cldrData, input, locale);
         if (nonNull(validatedPattern)) {
             return validatedPattern;
         }
 
-        validatedPattern = detectAnyTemporalCldrFormat(cldrData, input, locale);
+        validatedPattern = detectAnyTemporalCldrPattern(cldrData, input, locale);
         if (nonNull(validatedPattern)) {
             return validatedPattern;
         }
@@ -61,7 +61,7 @@ public class CldrProcessors {
         return ValidatedPattern.builder().pattern(EMPTY).build();
     }
 
-    private static ValidatedPattern detectStandardDateCldrFormat(CldrData cldrData, String input, Locale locale) {
+    private static ValidatedPattern detectStandardDateCldrPattern(CldrData cldrData, String input, Locale locale) {
         Map<String, String> standardDateFormats = new LinkedHashMap<>(cldrData.gregorianCalendar.dateFormats.getAllDateFormatsAsMap());
 
         for (Map.Entry<String, String> entry : standardDateFormats.entrySet()) {
@@ -73,7 +73,7 @@ public class CldrProcessors {
         return null;
     }
 
-    private static ValidatedPattern detectNonStandardDateCldrFormat(CldrData cldrData, String input, Locale locale) {
+    private static ValidatedPattern detectNonStandardDateCldrPattern(CldrData cldrData, String input, Locale locale) {
         Map<String, String> availableFormats = new LinkedHashMap<>(cldrData.gregorianCalendar.dateTimeFormats.availableFormats);
         for (Map.Entry<String, String> entry : availableFormats.entrySet()) {
             if (PatternValidators.isValidPattern(entry.getValue(), input, locale, LocalizedType.DATE)) {
@@ -86,7 +86,7 @@ public class CldrProcessors {
         return null;
     }
 
-    public static ValidatedPattern detectAnyTemporalCldrFormat(CldrData cldrData, String input, Locale locale) {
+    private static ValidatedPattern detectAnyTemporalCldrPattern(CldrData cldrData, String input, Locale locale) {
         for (Map.Entry<String, String> entry : cldrData.gregorianCalendar.dateTimeFormats.availableFormats.entrySet()) {
             if (PatternValidators.isValidPattern(entry.getValue(), input, locale, LocalizedType.TEMPORAL)) {
                 return ValidatedPattern.builder().pattern(entry.getValue()).localizedType(LocalizedType.TEMPORAL).cldrDataKeyName(entry.getKey())
@@ -96,7 +96,7 @@ public class CldrProcessors {
         return null;
     }
 
-    private static ValidatedPattern detectStandardDateTimeCldrFormats(CldrData cldrData, String input, Locale locale) {
+    private static ValidatedPattern detectStandardDateTimeCldrPattern(CldrData cldrData, String input, Locale locale) {
         Map<String, String> standardDateTimeFormats = new LinkedHashMap<>(cldrData.gregorianCalendar.getStandardDateTimeMap());
 
         for (Map.Entry<String, String> entry : standardDateTimeFormats.entrySet()) {
@@ -108,7 +108,7 @@ public class CldrProcessors {
         return null;
     }
 
-    public static ValidatedPattern detectStandardTimeCldrFormat(CldrData cldrData, String input, Locale locale) {
+    private static ValidatedPattern detectStandardTimeCldrPattern(CldrData cldrData, String input, Locale locale) {
         Map<String, String> standardTimeFormats = new LinkedHashMap<>(cldrData.gregorianCalendar.timeFormats.getAllTimeFormatsAsMap());
 
         for (Map.Entry<String, String> entry : standardTimeFormats.entrySet()) {
@@ -120,7 +120,7 @@ public class CldrProcessors {
         return null;
     }
 
-    public static ValidatedPattern detectNonStandardTimeCldrFormat(CldrData cldrData, String input, Locale locale) {
+    private static ValidatedPattern detectNonStandardTimeCldrPattern(CldrData cldrData, String input, Locale locale) {
         Map<String, String> availableFormats = new LinkedHashMap<>(cldrData.gregorianCalendar.dateTimeFormats.availableFormats);
         for (Map.Entry<String, String> entry : availableFormats.entrySet()) {
             if (PatternValidators.isValidPattern(entry.getValue(), input, locale, LocalizedType.TIME)) {
@@ -134,9 +134,9 @@ public class CldrProcessors {
     }
 
     //TODO: Revisit
-    public static String detectCldrTimePattern(CldrData cldrData, String el, Locale locale) {
-        ValidatedPattern patternForDetectedStandardTime = detectStandardTimeCldrFormat(cldrData, el, locale);
-        ValidatedPattern patternForDetectedNonStandardTime = detectStandardTimeCldrFormat(cldrData, el, locale);
+    public static String detectAnyCldrTimePattern(CldrData cldrData, String el, Locale locale) {
+        ValidatedPattern patternForDetectedStandardTime = detectStandardTimeCldrPattern(cldrData, el, locale);
+        ValidatedPattern patternForDetectedNonStandardTime = detectStandardTimeCldrPattern(cldrData, el, locale);
 
         String detectedStandardTime = nonNull(patternForDetectedStandardTime) ? patternForDetectedStandardTime.pattern : EMPTY;
         String detectedNonStandardTime = nonNull(patternForDetectedNonStandardTime) ? patternForDetectedNonStandardTime.pattern : EMPTY;
@@ -224,7 +224,7 @@ public class CldrProcessors {
     public static String detectTimezonesWithSpacings(String input, CldrData cldrData) {
         List<String> timeZonesWithSpacing = new ArrayList<>();
 
-        List<String> examplarCities = cldrData.timezoneNames.getZones().values().stream()
+        List<String> exemplarCities = cldrData.timezoneNames.getZones().values().stream()
                 .flatMap(zone -> zone.values().stream())
                 .map(SubZone::getExemplarCity).toList();
 
@@ -238,7 +238,7 @@ public class CldrProcessors {
                 .flatMap(metaZone -> Stream.of(metaZone.getLongMetaZone().getDaylight(), metaZone.getLongMetaZone().getStandard()))
                 .toList();
 
-        timeZonesWithSpacing.addAll(examplarCities);
+        timeZonesWithSpacing.addAll(exemplarCities);
         timeZonesWithSpacing.addAll(longGenericNonLocations);
         timeZonesWithSpacing.addAll(longSpecificNonLocations);
 

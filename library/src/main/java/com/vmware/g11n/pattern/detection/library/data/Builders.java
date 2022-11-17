@@ -11,7 +11,7 @@ import java.util.Map;
 
 public class Builders {
 
-    public static ValidationResult buildValidationResultResponse(String input, String language, boolean isLocalizedContent, ValidatedPattern detectedPattern) {
+    public static ValidationResult buildValidationResult(String input, String language, boolean isLocalizedContent, ValidatedPattern detectedPattern) {
         return ValidationResult.builder()
                 .input(input)
                 .language(language)
@@ -20,10 +20,10 @@ public class Builders {
                 .build();
     }
 
-    public static ConversionResult buildConversionResponse(ValidationResult sourceValidation,
-                                                           ValidationResult targetValidation,
-                                                           Map<ErrorsType, String> errors,
-                                                           Map<SuggestionsType, String> suggestions) {
+    public static ConversionResult buildConversionResult(ValidationResult sourceValidation,
+                                                         ValidationResult targetValidation,
+                                                         Map<ErrorsType, String> errors,
+                                                         Map<SuggestionsType, String> suggestions) {
         return ConversionResult.builder()
                 .isSourceContentLocalized(sourceValidation.isLocalizedContent)
                 .isTargetContentLocalized(targetValidation.isLocalizedContent)
