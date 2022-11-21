@@ -39,8 +39,7 @@ public class TimeFormats {
 
     @Override
     public String toString() {
-        return "Standard time formats: " + "[" +
-                "short: '" + shortened + "', " +
+        return "[" + "short: '" + shortened + "', " +
                 "medium: '" + medium + "', " +
                 "long: '" + longFormat + "', " +
                 "full: '" + full + "']";

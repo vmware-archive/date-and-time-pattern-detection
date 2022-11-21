@@ -5,6 +5,7 @@
 
 package com.vmware.g11n.pattern.detection.model.calendar;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.vmware.g11n.pattern.detection.model.calendar.dateTimeFormats.DateFormats;
 import com.vmware.g11n.pattern.detection.model.calendar.dateTimeFormats.DateTimeFormats;
@@ -46,5 +47,13 @@ public class GregorianCalendar {
                 .replace("{1}", dateFormats.full).replace("{0}", timeFormats.full));
 
         return standardDateTimeFormats;
+    }
+
+    @JsonIgnore
+    public String getStandardDateTimeMapToString() {
+        return "[" + "short: '" + getStandardDateTimeMap().get("short") + "', " +
+                "medium: '" + getStandardDateTimeMap().get("medium") + "', " +
+                "long: '" + getStandardDateTimeMap().get("long") + "', " +
+                "full: '" + getStandardDateTimeMap().get("full") + "']";
     }
 }

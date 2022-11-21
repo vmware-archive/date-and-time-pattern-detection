@@ -50,9 +50,9 @@ public final class PatternDetectionConstants {
 
     // Suggestions
     public static String INCORRECT_CASING_SUGGESTION = "Incorrect casing. Please follow recommended CLDR casing for localized content for the provided locale.";
-    public static String NON_STANDARD_DATE_SUGGESTION = "Provided date does not match the standard CLDR date patterns.";
-    public static String NON_STANDARD_TIME_SUGGESTION = "Provided time does not match the standard CLDR time patterns.";
-    public static String NON_STANDARD_DATE_TIME_SUGGESTION = "Provided dateTime does not match the standard CLDR dateTime patterns: ";
+    public static String NON_STANDARD_DATE_SUGGESTION = "Provided Date does not match the standard CLDR date patterns: ";
+    public static String NON_STANDARD_TIME_SUGGESTION = "Provided Time does not match the standard CLDR time patterns: ";
+    public static String NON_STANDARD_DATE_TIME_SUGGESTION = "Provided Date-Time does not match the standard CLDR dateTime patterns: ";
     public static String RELATIVE_TIME_DETECTED_SUGGESTION = "The input is containing relative time components. If left as part of the pattern, they can introduce issues when input is formatted to another language. Relative components detected: ";
     public static String ASIAN_TO_NON_ASIAN_INPUTS_CONVERSION_SUGGESTION = "It is not recommended to convert asian and non-asian localized inputs which do not follow CLDR Standard formats. Some components may not be parsable using the same patterns.";
     public static String NON_CONVERTABLE_COMPONENTS_SUGGESTION = "Non-convertable (hardcoded) components detected in source input. The following elements are not localized to the target locale: ";

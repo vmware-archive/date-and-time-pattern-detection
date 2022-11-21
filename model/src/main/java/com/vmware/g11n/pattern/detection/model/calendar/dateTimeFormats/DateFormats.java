@@ -39,8 +39,7 @@ public class DateFormats {
 
     @Override
     public String toString() {
-        return "Standard date formats: " + "[" +
-                "short: '" + shortened + "', " +
+        return "[" + "short: '" + shortened + "', " +
                 "medium: '" + medium + "', " +
                 "long: '" + longFormat + "', " +
                 "full: '" + full + "']";
