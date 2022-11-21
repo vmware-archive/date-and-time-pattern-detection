@@ -53,7 +53,7 @@ public class PatternBuilders {
 
             // If component cannot be detected manually, try to detect it using Standard cldr data
             if (patternForElement.isBlank()) {
-                patternForElement = detectPatternFromCldrFormats(cldrData, trimmedInput, locale).pattern + " ";
+                patternForElement = getValidatedPatternFromCldrFormats(cldrData, trimmedInput, locale).pattern + " ";
             }
 
             // Check component against ISO standard data
@@ -93,7 +93,7 @@ public class PatternBuilders {
         }
 
         // Check if the current element is valid time format
-        String detectedTimeFromCldr = detectCldrTimePattern(cldrData, component, locale);
+        String detectedTimeFromCldr = detectAnyCldrTimePattern(cldrData, component, locale);
         if (!detectedTimeFromCldr.isBlank()) {
             return detectedTimeFromCldr;
         }

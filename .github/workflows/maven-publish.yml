@@ -1,4 +1,4 @@
-name: Maven Package and Deploy
+name: Package and Deploy Jars + Docker image
 
 on:
   push:
@@ -62,7 +62,7 @@ jobs:
     - uses: actions/download-artifact@v2
       with:
           name: jar-artifact
-          path: target/
+          path: rest-api-service/target/
     - name: Docker build
       run: |
         docker build . -t vmware/date-time-pattern-rest-api-service

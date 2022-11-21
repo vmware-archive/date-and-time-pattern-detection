@@ -21,6 +21,7 @@ import java.util.stream.Collectors;
 
 import static com.vmware.g11n.pattern.detection.library.data.DateFieldSymbols.*;
 import static com.vmware.g11n.pattern.detection.library.data.PatternDetectionConstants.*;
+import static com.vmware.g11n.pattern.detection.library.patterns.PatternBuilders.*;
 import static com.vmware.g11n.pattern.detection.library.utils.Matchers.*;
 
 public class CldrMappers {
@@ -71,13 +72,13 @@ public class CldrMappers {
      * Skipping check for 24h standalone hours as the pattern is part of the standard CLDR formats.
      */
     public static String getPatternFromDateField(String dateField, String input) {
-        if (dateField.equals(YEAR_FIELD_KEY) && !PatternBuilders.buildYearPattern(input).isEmpty()) {
+        if (dateField.equals(YEAR_FIELD_KEY) && !buildYearPattern(input).isEmpty()) {
             return YEAR_1_DIGIT;
         }
-        if (dateField.equals(MONTH_FIELD_KEY) && !PatternBuilders.buildMonthPattern(input).isEmpty()) {
+        if (dateField.equals(MONTH_FIELD_KEY) && !buildMonthPattern(input).isEmpty()) {
             return MONTH_1_DIGIT;
         }
-        if (dateField.equals(DAY_FIELD_KEY) && !PatternBuilders.buildDayOfMonthPattern(input).isEmpty()) {
+        if (dateField.equals(DAY_FIELD_KEY) && !buildDayOfMonthPattern(input).isEmpty()) {
             return DAY_OF_MONTH_1_DIGIT;
         }
         if (dateField.equals(HOUR_FIELD_KEY) && detectHoursShortStandaloneFormat(input)) {

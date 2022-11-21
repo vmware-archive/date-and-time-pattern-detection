@@ -81,7 +81,7 @@ public class ConvertorService {
         Map<ErrorsType, String> errors = new HashMap<>(targetValidation.errors);
         Map<SuggestionsType, String> suggestions = generateSuggestions(sourceValidation, sourceLocale, targetLocale);
 
-        return Builders.buildConversionResponse(sourceValidation, targetValidation, errors, suggestions);
+        return Builders.buildConversionResult(sourceValidation, targetValidation, errors, suggestions);
 
     }
 

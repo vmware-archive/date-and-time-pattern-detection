@@ -76,7 +76,7 @@ public class PatternValidators {
 
     public static ValidatedPattern verifyAndBuildPattern(String pattern, String input, Locale locale, CldrData cldrData) {
         if (isValidPattern(pattern, input, locale, DATE_TIME)) {
-            ValidatorService.suggestions.put(NON_STANDARD_DATE_TIME, NON_STANDARD_DATE_TIME_SUGGESTION + cldrData.gregorianCalendar.getStandardDateTimeMap().values());
+            ValidatorService.suggestions.put(NON_STANDARD_DATE_TIME, NON_STANDARD_DATE_TIME_SUGGESTION + cldrData.gregorianCalendar.getStandardDateTimeMapToString());
             return ValidatedPattern.builder().pattern(pattern).patternInfoMessage(VALID_NON_STANDARD_DATE_TIME_MESSAGE).localizedType(DATE_TIME).isValidDate(true).build();
         } else if (isValidPattern(pattern, input, locale, DATE)) {
             ValidatorService.suggestions.put(NON_STANDARD_DATE, NON_STANDARD_DATE_SUGGESTION + cldrData.gregorianCalendar.dateFormats.toString());
