@@ -1,4 +1,4 @@
-name: Maven Package and Deploy Jars + Docker image
+name: Package and Deploy Jars + Docker image
 
 on:
   push:
