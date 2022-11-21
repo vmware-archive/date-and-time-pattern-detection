@@ -13,6 +13,7 @@ validate the localized date/time components. It provides suggestions based on th
 ## Build and Run as local REST-API service using Docker
 
 1. Pull Docker image from GitHub Container Registry: `docker pull ghcr.io/vmware-labs/date-and-time-pattern-detection:main` 
+If you get authentication error, you may need to login to chcr.io/vware-labs using Github username and access token.
 2. Run on specified port. Example: `docker run -p 8083:8083 ghcr.io/vmware-labs/date-and-time-pattern-detection:main`
 3. Open browser at http://localhost:8083/i18n/swagger-ui/index.html#/ (Port may be different, depending on above step).
 4. Access the REST-API documentation and test-out the endpoints.
@@ -55,7 +56,7 @@ You can directly use the library part of the project by injecting the dependency
 <dependency>
   <groupId>com.vmware.g11n</groupId>
   <artifactId>date-time-pattern-detection-library</artifactId>
-  <version>0.0.6</version>
+  <version>1.0.2</version>
 </dependency>
 ```
 2. Specify GitHub Package Registry as Maven Repository in your local settings.xml:
