@@ -10,7 +10,7 @@
     <parent>
         <groupId>com.vmware.g11n</groupId>
         <artifactId>date-time-pattern-detection-parent</artifactId>
-        <version>1.0.2</version>
+        <version>1.0.3</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -22,7 +22,7 @@
 
     <artifactId>date-time-pattern-detection-library</artifactId>
     <name>date-time-pattern-detection-library</name>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <packaging>jar</packaging>
 
     <dependencies>
